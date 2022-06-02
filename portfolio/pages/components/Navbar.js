@@ -7,15 +7,17 @@ function Navbar() {
         <nav className="relative container mx-auto p-6">
             <div className="flex items-center justify-between">
                 <div className="flex items-center pt-2">
-                    <Image src="/logo.svg" alt="Logo" height="64" width="64" />
-                    <Link href="#">
-                        <a className="max-w-md text-3xl font-bold text-center hover:text-lightYellow md:text-4xl md:text-left">
-                            Aaron Chen
+                    <Link href="/">
+                        <a>
+                            <Image src="/logo.svg" alt="Logo" width="60vh" height="60vw" />
                         </a>
+                    </Link>
+                    <Link href="#">
+                        <a className="max-w-md m-4 text-4xl text-bold font-bold hover:text-lightYellow">Aaron Chen</a>
                     </Link>
                 </div>
 
-                <div class="hidden space-x-6 md:flex">
+                <div className="hidden space-x-6 md:flex">
                     <Link href="#">
                         <a className="hover:text-lightYellow">Home</a>
                     </Link>
