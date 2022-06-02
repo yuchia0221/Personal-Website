@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
     return (
@@ -7,8 +8,7 @@ export default function Home() {
                 <title>Aaron Chen</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-
-            <h1 className="text-3xl font-bold underline">Hello world!</h1>
+            <Navbar />
         </>
     );
 }
