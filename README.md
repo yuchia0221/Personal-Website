@@ -9,7 +9,8 @@
 
 -   [Using this repo](#🚨-please-read-this-before-using-this-repo)
 -   [Getting Started](#🛠-getting-started)
-    -   [Run Server](#run-node-server)
+    -   [Prerequisites](#prerequisites)
+    -   [Run Server](#run-server)
 
 ## 🚨 Please Read This Before Using This Repo
 
