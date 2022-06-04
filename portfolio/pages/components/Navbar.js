@@ -59,19 +59,21 @@ function Navbar() {
                 <button
                     id="menu-btn"
                     type="button"
+                    title="hamburger menu button"
+                    role="none"
                     className={`block hamburger ${open} md:hidden focus:outline-none`}
                     onClick={handleIsClick}>
-                    <span class="hamburger-top"></span>
-                    <span class="hamburger-middle"></span>
-                    <span class="hamburger-bottom"></span>
+                    <span className="hamburger-top"></span>
+                    <span className="hamburger-middle"></span>
+                    <span className="hamburger-bottom"></span>
                 </button>
             </div>
 
             {/* Mobile Menu */}
-            <div class="md:hidden">
+            <div className="md:hidden">
                 <div
                     id="menu"
-                    class={`absolute ${visibility} flex-col items-center self-end py-8 mt-5 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md`}>
+                    className={`absolute ${visibility} flex-col items-center self-end py-8 mt-5 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md`}>
                     <Link href="#">
                         <a className="hover:text-lightYellow" onClick={handleIsClick}>
                             Home
