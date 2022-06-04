@@ -6,7 +6,7 @@
 .hamburger {
     cursor: pointer;
     width: 24px;
-    height: 24px;
+    height: 16px;
     transition: all 0.5s;
     position: relative;
 }
@@ -47,10 +47,4 @@
 
 .open .hamburger-bottom {
     transform: rotate(-45deg) translateY(6px) translate(-6px);
-}
-
-/* Nav Button Animation */
-.desk-nav:hover {
-    transform: scale(1.2);
-    transition: ease-out 0.3s;
 }
