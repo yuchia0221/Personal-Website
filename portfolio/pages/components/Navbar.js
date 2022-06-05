@@ -22,12 +22,12 @@ function Navbar() {
     }, [isClick]);
 
     return (
-        <div>
-            <nav className=" shadow-sm fixed w-full z-10">
+        <>
+            <nav className="shadow-sm fixed w-full z-10 bg-white">
                 <div className="flex items-center h-20 w-full">
                     <div className="flex w-full mx-20 items-center justify-between">
                         {/* Left Navbar: Icon & Name */}
-                        <div className="flex  items-center justify-center space-x-3 flex-shrink-0">
+                        <div className="flex items-center justify-center space-x-3 flex-shrink-0">
                             <Link href="/">
                                 <a>
                                     <Image src="/logo.svg" alt="Logo" height="35vh" width="35vw" />
@@ -36,7 +36,7 @@ function Navbar() {
 
                             <Link href="/">
                                 <a>
-                                    <h1 className=" font-bold text-xl cursor-pointer">
+                                    <h1 className="font-bold text-xl cursor-pointer">
                                         Aaron<span className="text-lightBlue">Chen</span>
                                     </h1>
                                 </a>
@@ -131,7 +131,7 @@ function Navbar() {
                     </div>
                 </Transition>
             </nav>
-        </div>
+        </>
     );
 }
 
