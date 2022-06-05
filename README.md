@@ -11,6 +11,7 @@
 -   [Getting Started](#🛠-getting-started)
     -   [Prerequisites](#prerequisites)
     -   [Run Server](#run-server)
+-   [Roadmap](#roadmap)
 
 ## 🚨 Please Read This Before Using This Repo
 
@@ -46,3 +47,22 @@ To get a local copy up and running follow these simple steps.
     ```bash
     npm run dev
     ```
+
+## Roadmap
+
+### Basic Features
+
+- [x] Responsive Navigation Bar
+- [ ] Hero Section with a 3D object
+- [ ] About Page
+- [ ] Projects Page
+- [ ] Contact Page
+- [ ] Resumé Page
+- [ ] CI/CD pipelines
+
+### Advanced Features
+
+- [ ] Dark Mode
+- [ ] Page Transition Animation
+- [ ] Page Ref to Navigation Bar
+- [ ] 404 Landing Page
