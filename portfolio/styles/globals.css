@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Type Writer */
+@layer {
+    .end-cursor:after {
+        content: ".";
+        @apply text-cyan-400;
+    }
+
+    .end-cursor.blinking:after {
+        animation: blink 1s step-start infinite;
+    }
+
+    @keyframes blink {
+        50% {
+            opacity: 0;
+        }
+    }
+}
+
 /* Hamburger Menu */
 .hamburger {
     cursor: pointer;
