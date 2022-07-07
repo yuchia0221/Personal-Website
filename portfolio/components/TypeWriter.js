@@ -5,10 +5,10 @@ import { Phase, useTypeWriter } from "../hooks/useTypeWriter";
 function TypeWriter(typingWords) {
     const { currentText, selectedWords, phase } = useTypeWriter(typingWords);
     return (
-        <h2>
-            I am
+        <h2 className="text-2xl">
+            I am a{" "}
             <span
-                className={cn("text-blue-500 text-2xl", {
+                className={cn("text-lightBlue", {
                     ["end-cursor"]: phase !== Phase.Deleting,
                     ["blinking"]: phase === Phase.Pausing,
                 })}
