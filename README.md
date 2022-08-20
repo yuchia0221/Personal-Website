@@ -17,6 +17,9 @@
 
 Yes! You can fork this repo, just give me proper credit. Thanks!
 
+-   You are not required to notify if you want to fork this repo.
+-   If you decide to fork this repo, you have to add a link to this repo in your home page and do not use the [3d object](/portfolio/public/aaron.glb)
+
 ## 🛠 Getting Started
 
 To get a local copy up and running follow these simple steps.
@@ -52,17 +55,17 @@ To get a local copy up and running follow these simple steps.
 
 ### Basic Features
 
-- [x] Responsive Navigation Bar
-- [ ] Hero Section with a 3D object
-- [ ] About Page
-- [ ] Projects Page
-- [ ] Contact Page
-- [ ] Resumé Page
-- [ ] CI/CD pipelines
+-   [x] Responsive Navigation Bar
+-   [ ] Hero Section with a 3D object
+-   [ ] About Page
+-   [ ] Projects Page
+-   [ ] Contact Page
+-   [ ] Resumé Page
+-   [ ] CI/CD pipelines
 
 ### Advanced Features
 
-- [ ] Dark Mode
-- [ ] Page Transition Animation
-- [ ] Page Ref to Navigation Bar
-- [ ] 404 Landing Page
+-   [ ] Dark Mode
+-   [ ] Page Transition Animation
+-   [ ] Page Ref to Navigation Bar
+-   [ ] 404 Landing Page
