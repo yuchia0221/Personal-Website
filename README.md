@@ -30,7 +30,7 @@ To get a local copy up and running follow these simple steps.
 2. Install [npm](https://www.npmjs.com/get-npm).
 3. Cloning this repo through:
 
-    ```git
+    ```bash
     git clone https://github.com/yuchia0221/yuchiachen.github.io.git
     ```
 
