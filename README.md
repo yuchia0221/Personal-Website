@@ -31,7 +31,7 @@ To get a local copy up and running follow these simple steps.
 3. Cloning this repo through:
 
     ```git
-    git clone https://github.com/yuchia0221/Ultimate-Visualizer.git
+    git clone https://github.com/yuchia0221/yuchiachen.github.io.git
     ```
 
 4. Install dependencies
