@@ -1,9 +1,9 @@
-<div align="center">
-  <img alt="Logo" src="./portfolio/public/logo.svg" width="100" />
-</div>
 <h2 align="center">
   Yu-Chia's Website
 </h1>
+<div align="center">
+  <img alt="Logo" src="./portfolio/public/logo.svg" width="100" />
+</div>
 
 ## Table of Contents
 
@@ -15,10 +15,10 @@
 
 ## Please Read This Before Using This Repo
 
-Yes! You can fork this repo, just give me proper credit. Thanks!
+You can fork this repo, just give me proper credit. Thanks!
 
 -   You are not required to notify if you want to fork this repo.
--   If you decide to fork this repo, you have to add a link to this repo in your home page and do not use the [3d object](/portfolio/public/aaron.glb)
+-   If you decide to fork this repo, you have to add a link to this repo in your home page and do not use the any image or icon from this repo without my explicit permission.
 
 ## Getting Started
 
