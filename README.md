@@ -2,25 +2,25 @@
   <img alt="Logo" src="./portfolio/public/logo.svg" width="100" />
 </div>
 <h2 align="center">
-  Yu-Chia's Website - v1
+  Yu-Chia's Website
 </h1>
 
 ## Table of Contents
 
--   [Using this repo](#🚨-please-read-this-before-using-this-repo)
--   [Getting Started](#🛠-getting-started)
+-   [Using this repo](#please-read-this-before-using-this-repo)
+-   [Getting Started](#getting-started)
     -   [Prerequisites](#prerequisites)
     -   [Run Server](#run-server)
 -   [Roadmap](#roadmap)
 
-## 🚨 Please Read This Before Using This Repo
+## Please Read This Before Using This Repo
 
 Yes! You can fork this repo, just give me proper credit. Thanks!
 
 -   You are not required to notify if you want to fork this repo.
 -   If you decide to fork this repo, you have to add a link to this repo in your home page and do not use the [3d object](/portfolio/public/aaron.glb)
 
-## 🛠 Getting Started
+## Getting Started
 
 To get a local copy up and running follow these simple steps.
 
@@ -56,7 +56,7 @@ To get a local copy up and running follow these simple steps.
 ### Basic Features
 
 -   [x] Responsive Navigation Bar
--   [ ] Hero Section with a 3D object
+-   [ ] Hero Section
 -   [ ] About Page
 -   [ ] Projects Page
 -   [ ] Contact Page
