@@ -23,20 +23,20 @@ function Navbar() {
 
     return (
         <>
-            <nav className="shadow-sm fixed w-full z-10 bg-white">
+            <nav className="relative w-full z-10 bg-white">
                 <div className="flex items-center h-20 w-full">
                     <div className="flex w-full mx-20 items-center justify-between">
                         {/* Left Navbar: Icon & Name */}
                         <div className="flex items-center justify-center space-x-3 flex-shrink-0">
                             <Link href="/">
                                 <a>
-                                    <Image src="/logo.svg" alt="Logo" height="35vh" width="35vw" />
+                                    <Image src="/logo.svg" alt="Logo" height="38vh" width="38vw" />
                                 </a>
                             </Link>
 
                             <Link href="/">
                                 <a>
-                                    <h1 className="font-bold text-xl cursor-pointer">
+                                    <h1 className="font-bold text-2xl cursor-pointer">
                                         Aaron<span className="text-lightBlue">Chen</span>
                                     </h1>
                                 </a>
@@ -47,27 +47,27 @@ function Navbar() {
                         <div className="hidden md:block">
                             <div className="ml-10 flex items-baseline space-x-4">
                                 <Link href="/#">
-                                    <a className="cursor-pointer text-blue-600 font-semibold px-3 py-2 text-md hover:font-black">
+                                    <a className="cursor-pointer hover:bg-lightBlue text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                                         Home
                                     </a>
                                 </Link>
                                 <Link href="/#">
-                                    <a className="cursor-pointer hover:bg-blue-600 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                                    <a className="cursor-pointer hover:bg-lightBlue text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                                         About
                                     </a>
                                 </Link>
                                 <Link href="/#">
-                                    <a className="cursor-pointer hover:bg-blue-600 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                                    <a className="cursor-pointer hover:bg-lightBlue text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                                         Projects
                                     </a>
                                 </Link>
                                 <Link href="/#">
-                                    <a className="cursor-pointer hover:bg-blue-600 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                                    <a className="cursor-pointer hover:bg-lightBlue text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                                         Contact
                                     </a>
                                 </Link>
                                 <Link href="/#">
-                                    <a className="cursor-pointer hover:bg-blue-600 text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                                    <a className="cursor-pointer hover:bg-lightBlue text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                                         Resumé
                                     </a>
                                 </Link>
