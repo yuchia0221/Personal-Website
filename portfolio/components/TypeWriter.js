@@ -2,13 +2,13 @@ import React from "react";
 import cn from "classnames";
 import { Phase, useTypeWriter } from "../hooks/useTypeWriter";
 
-function TypeWriter(typingWords) {
-    const { currentText, selectedWords, phase } = useTypeWriter(typingWords);
+function TypeWriter({ typingWords, textColor }) {
+    const { currentText, selectedWords, phase } = useTypeWriter({ typingWords: typingWords });
     return (
-        <h2 className="text-2xl">
+        <h2 className="md:text-5xl font-semibold font-mono">
             I am a{" "}
             <span
-                className={cn("text-lightBlue", {
+                className={cn(textColor, {
                     ["end-cursor"]: phase !== Phase.Deleting,
                     ["blinking"]: phase === Phase.Pausing,
                 })}

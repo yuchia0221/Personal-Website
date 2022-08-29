@@ -6,7 +6,7 @@
 @layer {
     .end-cursor:after {
         content: ".";
-        @apply text-lightBlue;
+        @apply text-black;
     }
 
     .end-cursor.blinking:after {
