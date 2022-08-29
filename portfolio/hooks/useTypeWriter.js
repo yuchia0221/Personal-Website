@@ -12,7 +12,7 @@ const TYPING_INTERVAL_MIN = 80;
 const TYPING_INTERVAL_MAX = 150;
 const TYPING_PAUSE_MS = 2000;
 const DELETING_INTERVAL = 50;
-const DELETING_PAUSE_MS = 500;
+const DELETING_PAUSE_MS = 800;
 
 const getRandomTypingInterval = () =>
     Math.floor(Math.random() * (TYPING_INTERVAL_MAX - TYPING_INTERVAL_MIN + 1)) + TYPING_INTERVAL_MIN;
@@ -20,7 +20,6 @@ const getRandomTypingInterval = () =>
 export const Phase = makeEnum(["Typing", "Pausing", "Deleting"]);
 
 export const useTypeWriter = ({ typingWords }) => {
-    console.log(typingWords);
     const [index, setIndex] = useState(0);
     const [phase, setPhase] = useState(Phase.Typing);
     const [currentText, setCurrentText] = useState("");
