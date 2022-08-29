@@ -1,12 +1,15 @@
 import Head from "next/head";
-import React from "react";
+import Navbar from "./Navbar";
 
 function Header({ title }) {
     return (
-        <Head>
-            <title>{title}</title>
-            <link rel="icon" href="/favicon.ico" />
-        </Head>
+        <>
+            <Head>
+                <title>{title}</title>
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
+            <Navbar />
+        </>
     );
 }
 
