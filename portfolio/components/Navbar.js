@@ -51,8 +51,8 @@ function Navbar() {
                                         Home
                                     </a>
                                 </Link>
-                                <Link href="/#">
-                                    <a className="cursor-pointer hover:bg-lightBlue text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                                <Link href="/about">
+                                    <a className="cursor-pointer text-black hover:text-lightBlue px-3 py-2 rounded-md text-sm font-medium">
                                         About
                                     </a>
                                 </Link>
@@ -107,8 +107,8 @@ function Navbar() {
                                     Home
                                 </a>
                             </Link>
-                            <Link href="/#">
-                                <a className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                            <Link href="/about">
+                                <a className="cursor-pointer hover:bg-lightBlue text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium">
                                     About
                                 </a>
                             </Link>
