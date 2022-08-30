@@ -9,8 +9,8 @@ function Introduction() {
             <h1 className="md:text-2xl font-semibold font-mono">Hello! This is Aaron Chen</h1>
             <TypeWriter typingWords={typingWords} textColor="text-sky-700" />
             <h1 className="md:text-2xl font-semibold font-mono">I love coding.</h1>
-            <Link href="/#" passHref>
-                <a className="bg-sky-700 hover:bg-sky-800 text-white font-bold py-2 px-4 rounded">Show me more</a>
+            <Link href="/about" passHref>
+                <a className="bg-sky-700 hover:bg-sky-800 text-white font-bold py-2 px-4 rounded-md shadow-lg shadow-sky-700/40">Show me more</a>
             </Link>
         </div>
     );
