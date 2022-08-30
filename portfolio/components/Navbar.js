@@ -23,11 +23,11 @@ function Navbar() {
 
     return (
         <>
-            <nav className="relative w-full z-10 bg-white">
-                <div className="flex items-center h-20 w-full">
-                    <div className="flex w-full mx-20 items-center justify-between">
+            <nav className="relative z-10 w-full bg-white">
+                <div className="flex h-20 w-full items-center">
+                    <div className="mx-20 flex w-full items-center justify-between">
                         {/* Left Navbar: Icon & Name */}
-                        <div className="flex items-center justify-center space-x-3 flex-shrink-0">
+                        <div className="flex flex-shrink-0 items-center justify-center space-x-3">
                             <Link href="/">
                                 <a>
                                     <Image src="/logo.svg" alt="Logo" height="38vh" width="38vw" />
@@ -36,7 +36,7 @@ function Navbar() {
 
                             <Link href="/">
                                 <a>
-                                    <h1 className="font-bold text-2xl cursor-pointer">
+                                    <h1 className="cursor-pointer text-2xl font-bold">
                                         Aaron<span className="text-lightBlue">Chen</span>
                                     </h1>
                                 </a>
@@ -47,27 +47,29 @@ function Navbar() {
                         <div className="hidden md:block">
                             <div className="ml-10 flex items-baseline space-x-4">
                                 <Link href="/">
-                                    <a className="cursor-pointer text-black hover:text-lightBlue px-3 py-2 rounded-md text-sm font-medium">
+                                    <a className="cursor-pointer rounded-md px-3 py-2 text-sm font-medium text-black hover:text-lightBlue">
                                         Home
                                     </a>
                                 </Link>
                                 <Link href="/about">
-                                    <a className="cursor-pointer text-black hover:text-lightBlue px-3 py-2 rounded-md text-sm font-medium">
+                                    <a className="cursor-pointer rounded-md px-3 py-2 text-sm font-medium text-black hover:text-lightBlue">
                                         About
                                     </a>
                                 </Link>
                                 <Link href="/#">
-                                    <a className="cursor-pointer text-black hover:text-lightBlue px-3 py-2 rounded-md text-sm font-medium">
+                                    <a className="cursor-pointer rounded-md px-3 py-2 text-sm font-medium text-black hover:text-lightBlue">
                                         Projects
                                     </a>
                                 </Link>
-                                <Link href="/#">
-                                    <a className="cursor-pointer text-black hover:text-lightBlue px-3 py-2 rounded-md text-sm font-medium">
+                                <Link href="/contact">
+                                    <a className="cursor-pointer rounded-md px-3 py-2 text-sm font-medium text-black hover:text-lightBlue">
                                         Contact
                                     </a>
                                 </Link>
-                                <Link href="/#">
-                                    <a className="cursor-pointer border-2 border-lightBlue text-lightBlue shadow-md shadow-lightBlue-500/50 hover:bg-lightBlue hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                                <Link href="/Yu-Chia Chen Resume.pdf">
+                                    <a
+                                        className="shadow-lightBlue-500/50 cursor-pointer rounded-md border-2 border-lightBlue px-3 py-2 text-sm font-medium text-lightBlue shadow-md hover:bg-lightBlue hover:text-white"
+                                        target="_blank">
                                         Resumé
                                     </a>
                                 </Link>
@@ -82,7 +84,7 @@ function Navbar() {
                             type="button"
                             title="hamburger menu button"
                             role="none"
-                            className={`block hamburger ${open} md:hidden focus:outline-none`}
+                            className={`hamburger block ${open} focus:outline-none md:hidden`}
                             onClick={handleIsClick}>
                             <span className="hamburger-top"></span>
                             <span className="hamburger-middle"></span>
@@ -101,29 +103,31 @@ function Navbar() {
                     leaveFrom="opacity-100 scale-100"
                     leaveTo="opacity-0 scale-95">
                     <div className="md:hidden" id="mobile-menu">
-                        <div className="text-center px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                        <div className="space-y-1 px-2 pt-2 pb-3 text-center sm:px-3">
                             <Link href="/">
-                                <a className="cursor-pointer hover:bg-lightBlue text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                                <a className="block cursor-pointer rounded-md px-3 py-2 text-base font-medium text-black hover:bg-lightBlue hover:text-white">
                                     Home
                                 </a>
                             </Link>
                             <Link href="/about">
-                                <a className="cursor-pointer hover:bg-lightBlue text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                                <a className="block cursor-pointer rounded-md px-3 py-2 text-base font-medium text-black hover:bg-lightBlue hover:text-white">
                                     About
                                 </a>
                             </Link>
                             <Link href="/#">
-                                <a className="cursor-pointer hover:bg-lightBlue text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                                <a className="block cursor-pointer rounded-md px-3 py-2 text-base font-medium text-black hover:bg-lightBlue hover:text-white">
                                     Projects
                                 </a>
                             </Link>
-                            <Link href="/#">
-                                <a className="cursor-pointer hover:bg-lightBlue text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                            <Link href="/contact">
+                                <a className="block cursor-pointer rounded-md px-3 py-2 text-base font-medium text-black hover:bg-lightBlue hover:text-white">
                                     Contact
                                 </a>
                             </Link>
-                            <Link href="/#">
-                                <a className="cursor-pointer hover:bg-lightBlue text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                            <Link href="/Yu-Chia Chen Resume.pdf">
+                                <a
+                                    className="block cursor-pointer rounded-md px-3 py-2 text-base font-medium text-black hover:bg-lightBlue hover:text-white"
+                                    target="_blank">
                                     Resumé
                                 </a>
                             </Link>
