@@ -60,7 +60,7 @@ To get a local copy up and running follow these simple steps.
 -   [x] About Page
 -   [ ] Projects Page
 -   [x] Contact Page
--   [ ] Resumé Page
+-   [x] Resumé Page
 -   [ ] CI/CD pipelines
 
 ### Advanced Features
