@@ -59,7 +59,7 @@ To get a local copy up and running follow these simple steps.
 -   [x] Hero Section
 -   [x] About Page
 -   [ ] Projects Page
--   [ ] Contact Page
+-   [x] Contact Page
 -   [ ] Resumé Page
 -   [ ] CI/CD pipelines
 
