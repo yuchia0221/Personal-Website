@@ -18,12 +18,13 @@ function Work() {
                     <div className="space-y-3 pt-2 lg:text-justify">
                         <p>
                             <span className="font-semibold">Yu-Chia Chen</span>, Zih-Ching Chen, and Chih-Hsien Hsia,
-                            "Roadside Unit-Based Unknown Object Detection in Adverse Weather Conditions for Smart
-                            Internet of Vehicles," ACM Transactions on Management Information Systems (TMIS), 2021. (In
-                            Press)
+                            &quot;Roadside Unit-Based Unknown Object Detection in Adverse Weather Conditions for Smart
+                            Internet of Vehicles,&quot; ACM Transactions on Management Information Systems (TMIS), 2021.
+                            (In Press)
                         </p>
                         <p>
-                            <span className="font-semibold">Yu-Chia Chen</span>, Zih-Ching Chen, and Chih-Hsien Hsia, “
+                            <span className="font-semibold">Yu-Chia Chen</span>, Zih-Ching Chen, and Chih-Hsien Hsia,
+                            &quot;
                             <Link href="https://doi.org/10.1109/ICCE-TW52618.2021.9603205" passHref>
                                 <a
                                     className="text-sky-600 underline hover:rounded-sm hover:bg-lightBlue hover:text-white hover:no-underline"
@@ -32,7 +33,7 @@ function Work() {
                                     Learning-Based Feature Extraction
                                 </a>
                             </Link>
-                            , in Proceedings of the IEEE International Conference on Consumer Electronics - Taiwan
+                            &quot;, in Proceedings of the IEEE International Conference on Consumer Electronics - Taiwan
                             (ICCE-TW), 2021.
                         </p>
                     </div>
