@@ -5,7 +5,7 @@ import { Phase, useTypeWriter } from "../hooks/useTypeWriter";
 function TypeWriter({ typingWords, textColor }) {
     const { currentText, selectedWords, phase } = useTypeWriter({ typingWords: typingWords });
     return (
-        <h2 className="md:text-5xl font-mono">
+        <h2 className="font-mono md:text-5xl">
             I am a{" "}
             <span
                 className={cn(textColor, "font-semibold", {

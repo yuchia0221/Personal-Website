@@ -19,14 +19,14 @@ function Contact() {
                         className="relative col-start-4 h-14 w-14 cursor-pointer justify-self-center lg:col-start-6 lg:h-20 lg:w-20"
                         title="Linkedin"
                         target="_blank">
-                        <Image src="/linkedin-logo.png" layout="fill" title="Linkedin"/>
+                        <Image src="/linkedin-logo.png" layout="fill" title="Linkedin" />
                     </a>
                 </Link>
                 <Link href="mailto:yuchiachen99@gmail.com" passHref>
                     <a
                         className="relative col-start-6 h-14 w-14 cursor-pointer justify-self-center lg:col-start-8 lg:h-20 lg:w-20"
                         title="Email">
-                        <Image src="/email.png" layout="fill" title="Email"/>
+                        <Image src="/email.png" layout="fill" title="Email" />
                     </a>
                 </Link>
                 <Link href="https://github.com/yuchia0221" passHref>
