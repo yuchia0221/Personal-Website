@@ -46,8 +46,8 @@ function Navbar() {
                         {/* Right Navbar: Links */}
                         <div className="hidden md:block">
                             <div className="ml-10 flex items-baseline space-x-4">
-                                <Link href="/#">
-                                    <a className="cursor-pointer hover:bg-lightBlue text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                                <Link href="/">
+                                    <a className="cursor-pointer text-black hover:text-lightBlue px-3 py-2 rounded-md text-sm font-medium">
                                         Home
                                     </a>
                                 </Link>
@@ -57,17 +57,17 @@ function Navbar() {
                                     </a>
                                 </Link>
                                 <Link href="/#">
-                                    <a className="cursor-pointer hover:bg-lightBlue text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                                    <a className="cursor-pointer text-black hover:text-lightBlue px-3 py-2 rounded-md text-sm font-medium">
                                         Projects
                                     </a>
                                 </Link>
                                 <Link href="/#">
-                                    <a className="cursor-pointer hover:bg-lightBlue text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                                    <a className="cursor-pointer text-black hover:text-lightBlue px-3 py-2 rounded-md text-sm font-medium">
                                         Contact
                                     </a>
                                 </Link>
                                 <Link href="/#">
-                                    <a className="cursor-pointer hover:bg-lightBlue text-black hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                                    <a className="cursor-pointer border-2 border-lightBlue text-lightBlue shadow-md shadow-lightBlue-500/50 hover:bg-lightBlue hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                                         Resumé
                                     </a>
                                 </Link>
@@ -102,8 +102,8 @@ function Navbar() {
                     leaveTo="opacity-0 scale-95">
                     <div className="md:hidden" id="mobile-menu">
                         <div className="text-center px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                            <Link href="/#">
-                                <a className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                            <Link href="/">
+                                <a className="cursor-pointer hover:bg-lightBlue text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium">
                                     Home
                                 </a>
                             </Link>
@@ -113,17 +113,17 @@ function Navbar() {
                                 </a>
                             </Link>
                             <Link href="/#">
-                                <a className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                                <a className="cursor-pointer hover:bg-lightBlue text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium">
                                     Projects
                                 </a>
                             </Link>
                             <Link href="/#">
-                                <a className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                                <a className="cursor-pointer hover:bg-lightBlue text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium">
                                     Contact
                                 </a>
                             </Link>
                             <Link href="/#">
-                                <a className="cursor-pointer hover:bg-blue-600 text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                                <a className="cursor-pointer hover:bg-lightBlue text-black hover:text-white block px-3 py-2 rounded-md text-base font-medium">
                                     Resumé
                                 </a>
                             </Link>
