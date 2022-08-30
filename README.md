@@ -57,7 +57,7 @@ To get a local copy up and running follow these simple steps.
 
 -   [x] Responsive Navigation Bar
 -   [x] Hero Section
--   [ ] About Page
+-   [x] About Page
 -   [ ] Projects Page
 -   [ ] Contact Page
 -   [ ] Resumé Page
