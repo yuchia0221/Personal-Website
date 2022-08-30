@@ -67,5 +67,4 @@ To get a local copy up and running follow these simple steps.
 
 -   [ ] Dark Mode
 -   [ ] Page Transition Animation
--   [ ] Page Ref to Navigation Bar
 -   [ ] 404 Landing Page
