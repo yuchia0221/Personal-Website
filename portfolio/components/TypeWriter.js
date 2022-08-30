@@ -5,10 +5,10 @@ import { Phase, useTypeWriter } from "../hooks/useTypeWriter";
 function TypeWriter({ typingWords, textColor }) {
     const { currentText, selectedWords, phase } = useTypeWriter({ typingWords: typingWords });
     return (
-        <h2 className="md:text-5xl font-semibold font-mono">
+        <h2 className="md:text-5xl font-mono">
             I am a{" "}
             <span
-                className={cn(textColor, {
+                className={cn(textColor, "font-semibold", {
                     ["end-cursor"]: phase !== Phase.Deleting,
                     ["blinking"]: phase === Phase.Pausing,
                 })}
