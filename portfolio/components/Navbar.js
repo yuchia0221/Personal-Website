@@ -30,7 +30,7 @@ function Navbar() {
                         <div className="flex flex-shrink-0 items-center justify-center space-x-3">
                             <Link href="/">
                                 <a>
-                                    <Image src="/logo.svg" alt="Logo" height="38vh" width="38vw" />
+                                    <Image src="/images/logo.svg" alt="Logo" height="38vh" width="38vw" />
                                 </a>
                             </Link>
 
