@@ -8,7 +8,7 @@ function Education() {
             </div>
             <div className="grid grid-flow-row grid-cols-7 gap-8">
                 <div className="relative col-span-1 col-start-2 row-span-2 h-12 w-12 justify-self-center lg:h-20 lg:w-20">
-                    <Image src="/rice-logo.png" alt="Rice Logo" layout="fill" />
+                    <Image src="/images/rice-logo.png" alt="Rice Logo" layout="fill" />
                 </div>
                 <div className="col-span-4 row-span-2 space-y-1 text-sm lg:text-lg">
                     <div>M.S. in Computer Science @ Rice University</div>
@@ -18,7 +18,7 @@ function Education() {
                     </div>
                 </div>
                 <div className="relative col-span-1 col-start-2 row-span-2 h-12 w-12 justify-self-center lg:h-20 lg:w-20">
-                    <Image src="/ntu-logo.png" alt="Rice Logo" layout="fill" />
+                    <Image src="/images/ntu-logo.png" alt="Rice Logo" layout="fill" />
                 </div>
                 <div className="col-span-4 row-span-2 space-y-1 text-sm lg:text-lg">
                     <div>B.A. in Economics @ National Taiwan University</div>

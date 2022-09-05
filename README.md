@@ -2,7 +2,7 @@
   Yu-Chia's Website
 </h1>
 <div align="center">
-  <img alt="Logo" src="./portfolio/public/logo.svg" width="100" />
+  <img alt="Logo" src="./portfolio/public/images/logo.svg" width="100" />
 </div>
 
 ## Table of Contents

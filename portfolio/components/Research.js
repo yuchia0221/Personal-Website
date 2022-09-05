@@ -9,7 +9,7 @@ function Work() {
             </div>
             <div className="grid grid-flow-row grid-cols-7 gap-8">
                 <div className="relative col-span-1 col-start-2 row-span-2 h-12 w-12 justify-self-center lg:h-16 lg:w-16">
-                    <Image src="/niu-logo.png" alt="Microsoft Logo" layout="fill" />
+                    <Image src="/images/niu-logo.png" alt="Microsoft Logo" layout="fill" />
                 </div>
                 <div className="col-span-4 row-span-4 space-y-1 text-sm lg:text-lg">
                     <div>Research Assistant @ Nation Ilan University</div>
