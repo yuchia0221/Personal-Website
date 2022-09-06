@@ -58,7 +58,9 @@ function Projects() {
         />
     ));
 
-    return <div className="my-12 flex flex-col flex-wrap items-center space-y-8">{projectItems}</div>;
+    return (
+        <div className="my-4 flex flex-col flex-wrap items-center space-y-4 lg:my-12 lg:space-y-8">{projectItems}</div>
+    );
 }
 
 export default Projects;
