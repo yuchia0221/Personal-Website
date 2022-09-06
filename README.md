@@ -12,6 +12,7 @@
     -   [Prerequisites](#prerequisites)
     -   [Run Server](#run-server)
 -   [Roadmap](#roadmap)
+-   [Acknowledge](#acknowledge)
 
 ## Please Read This Before Using This Repo
 
@@ -58,7 +59,7 @@ To get a local copy up and running follow these simple steps.
 -   [x] Responsive Navigation Bar
 -   [x] Hero Section
 -   [x] About Page
--   [ ] Projects Page
+-   [x] Projects Page
 -   [x] Contact Page
 -   [x] Resumé Page
 -   [x] CI/CD pipelines
@@ -67,4 +68,8 @@ To get a local copy up and running follow these simple steps.
 
 -   [ ] Dark Mode
 -   [ ] Page Transition Animation
--   [ ] 404 Landing Page
+-   [x] 404 Landing Page
+
+### Acknowledge
+
+Special thanks to [Kapwing](https://www.kapwing.com) for their free 404 page images.
