@@ -2,6 +2,57 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    @font-face {
+        font-family: Inria Sans Regular;
+        src: url("/fonts/Inria Sans Light.woff2") format("woff2");
+        font-weight: 300;
+        font-display: swap;
+        font-style: light;
+    }
+    @font-face {
+        font-family: Inria Sans Light;
+        src: url("/fonts/Inria Sans Light Italic.woff2") format("woff2");
+        font-weight: 300;
+        font-display: swap;
+        font-style: italic;
+    }
+    @font-face {
+        font-family: Inria Sans Regular;
+        src: url("/fonts/Inria Sans Italic.woff2") format("woff2");
+        font-weight: 400;
+        font-display: swap;
+        font-style: italic;
+    }
+    @font-face {
+        font-family: Inria Sans Regular;
+        src: url("/fonts/Inria Sans.woff2") format("woff2");
+        font-weight: 400;
+        font-display: swap;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: Inria Sans Regular;
+        src: url("/fonts/Inria Sans Bold.woff2") format("woff2");
+        font-weight: 700;
+        font-display: swap;
+        font-style: bold;
+    }
+    @font-face {
+        font-family: Inria Sans Bold;
+        src: url("/fonts/Inria Sans Bold Italic.woff2") format("woff2");
+        font-weight: 700;
+        font-display: swap;
+        font-style: italic;
+    }
+}
+
+@layer base {
+    html {
+        @apply font-inria;
+    }
+}
+
 /* Type Writer */
 @layer {
     .end-cursor:after {

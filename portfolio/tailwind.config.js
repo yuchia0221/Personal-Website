@@ -1,3 +1,5 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
     content: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
     theme: {
@@ -13,6 +15,11 @@ module.exports = {
                 lightBlue: "#92BADD",
                 lightGray: "#F5F5F5",
                 lightBlack: "#343233",
+            },
+            fontFamily: {
+                inria: ['"Inria Sans Regular"', ...defaultTheme.fontFamily.sans],
+                inriaLightItalic: ['"Inria Sans Light"', ...defaultTheme.fontFamily.sans],
+                inriaBoldItalic: ['"Inria Bold Light"', ...defaultTheme.fontFamily.sans],
             },
         },
     },
