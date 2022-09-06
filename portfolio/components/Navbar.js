@@ -56,7 +56,7 @@ function Navbar() {
                                         About
                                     </a>
                                 </Link>
-                                <Link href="/#">
+                                <Link href="/projects">
                                     <a className="cursor-pointer rounded-md px-3 py-2 text-sm font-medium text-black hover:text-lightBlue">
                                         Projects
                                     </a>
@@ -114,7 +114,7 @@ function Navbar() {
                                     About
                                 </a>
                             </Link>
-                            <Link href="/#">
+                            <Link href="/projects">
                                 <a className="block cursor-pointer rounded-md px-3 py-2 text-base font-medium text-black hover:bg-lightBlue hover:text-white">
                                     Projects
                                 </a>
