@@ -14,7 +14,7 @@ function Hero() {
         <>
             <Introduction />
             <Wave
-                className="invisible absolute bottom-0 z-20 h-72 opacity-50 md:visible"
+                className="invisible absolute bottom-0 z-20 h-2/5 opacity-50 lg:visible"
                 fill="#0369a1"
                 paused={false}
                 options={wave_options}
