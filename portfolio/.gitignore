@@ -30,7 +30,3 @@ yarn-error.log*
 
 # vercel
 .vercel
-
-
-# Mac Files
-.DS_Store
