@@ -12,7 +12,7 @@ function Education() {
                 </div>
                 <div className="col-span-4 row-span-2 space-y-1 text-sm lg:text-lg">
                     <div>M.S. in Computer Science @ Rice University</div>
-                    <div className="text-gray-500">Aug. 2022 - Present | Sepecializes in Systems and Security</div>
+                    <div className="text-gray-500">Aug. 2022 - Present | Specializes in Systems and Security</div>
                     <div>
                         2022 Fall: Web Development and Design, Parallel Computing, Algorithms, Computer Architecture
                     </div>
