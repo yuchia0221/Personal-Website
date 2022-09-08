@@ -14,8 +14,14 @@ function Hero() {
         <>
             <Introduction />
             <Wave
-                className="invisible absolute bottom-0 -z-10 h-2/5 opacity-50 lg:visible"
+                className="absolute bottom-0 -z-10 h-2/5 opacity-50 dark:invisible lg:visible"
                 fill="#0369a1"
+                paused={false}
+                options={wave_options}
+            />
+            <Wave
+                className="invisible absolute bottom-0 -z-10 h-2/5 opacity-50 dark:lg:visible"
+                fill="#F8D862"
                 paused={false}
                 options={wave_options}
             />

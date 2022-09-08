@@ -2,7 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 
 function ProjectItem({ name, image, image_alt, technologies, intro, tags, github, link }) {
-    const tagColor = { Web: "bg-blue-300", Cloud: "bg-fuchsia-300", AI: "bg-rose-300", ML: "bg-lime-300" };
+    const tagColor = {
+        Web: "bg-blue-300 dark:bg-blue-700",
+        Cloud: "bg-fuchsia-300 dark:bg-fuchsia-700",
+        AI: "bg-rose-300 dark:bg-rose-700",
+        ML: "bg-lime-300 dark:bg-lime-700",
+    };
     const tagList = tags.map((tag, index) => {
         return (
             <div
@@ -15,12 +20,14 @@ function ProjectItem({ name, image, image_alt, technologies, intro, tags, github
     const projectName =
         github != null ? (
             <Link href={github}>
-                <a className="text-lg text-sky-600 hover:text-sky-900 md:text-2xl" target="_blank">
+                <a
+                    className="text-lg text-sky-600 hover:text-sky-900 dark:text-lightYellow dark:hover:text-yellow-500 md:text-2xl"
+                    target="_blank">
                     {name}
                 </a>
             </Link>
         ) : (
-            <div className="text-lg text-sky-600 md:text-2xl">{name}</div>
+            <div className="text-lg text-sky-600 dark:text-lightYellow md:text-2xl">{name}</div>
         );
     const websiteLink =
         link != null ? (
@@ -34,17 +41,28 @@ function ProjectItem({ name, image, image_alt, technologies, intro, tags, github
         );
     const githubLink =
         github != null ? (
-            <Link href={github}>
-                <a className="relative inline-flex h-6 w-6 lg:h-11 lg:w-11 xl:h-12 xl:w-12" target="_blank">
-                    <Image className="" src="/images/github-logo.png" alt="GitHub" layout="fill" />
-                </a>
-            </Link>
+            <>
+                <Link href={github}>
+                    <a
+                        className="relative inline-flex h-6 w-6 dark:hidden lg:h-11 lg:w-11 xl:h-12 xl:w-12"
+                        target="_blank">
+                        <Image src="/images/github-logo-light.png" alt="GitHub" layout="fill" />
+                    </a>
+                </Link>
+                <Link href={github}>
+                    <a
+                        className="relative hidden h-6 w-6 dark:inline-flex lg:h-11 lg:w-11 xl:h-12 xl:w-12"
+                        target="_blank">
+                        <Image src="/images/github-logo-dark.png" alt="GitHub" layout="fill" />
+                    </a>
+                </Link>
+            </>
         ) : (
             <></>
         );
 
     return (
-        <div className="lg:4/5 w-5/6 rounded-xl border-2 border-lightBlue px-2 py-3 md:p-6 xl:w-3/5">
+        <div className="lg:4/5 w-5/6 rounded-xl border-2 border-lightBlue px-2 py-3 dark:border-lightYellow md:p-6 xl:w-3/5">
             <div className="grid grid-flow-row grid-cols-7 place-content-center space-x-2 md:grid-cols-10">
                 <div className="relative col-span-1 hidden place-self-center md:visible md:flex md:h-12 md:w-12">
                     <Image src={image} alt={image_alt} layout="fill" />

@@ -27,7 +27,7 @@ function Work() {
                             &quot;
                             <Link href="https://doi.org/10.1109/ICCE-TW52618.2021.9603205" passHref>
                                 <a
-                                    className="text-sky-600 underline hover:rounded-sm hover:bg-lightBlue hover:text-white hover:no-underline"
+                                    className="text-sky-600 underline hover:rounded-sm hover:bg-lightBlue hover:text-white hover:no-underline dark:text-lightYellow dark:hover:bg-lightYellow dark:hover:text-black"
                                     target="_blank">
                                     Music Mood Classification System for Streaming Platform Analysis via Deep
                                     Learning-Based Feature Extraction

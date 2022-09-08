@@ -8,7 +8,7 @@ function TypeWriter({ typingWords, textColor }) {
         <h2 className="md:text-5xl">
             I am a{" "}
             <span
-                className={cn(textColor, "font-semibold", {
+                className={cn(textColor, "font-semibold dark:text-lightYellow", {
                     ["end-cursor"]: phase !== Phase.Deleting,
                     ["blinking"]: phase === Phase.Pausing,
                 })}

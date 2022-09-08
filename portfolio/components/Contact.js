@@ -8,10 +8,18 @@ function Contact() {
             <div className="grid grid-flow-row grid-cols-7 lg:grid-cols-11">
                 <Link href="https://github.com/yuchia0221" passHref>
                     <a
-                        className="relative col-start-2 h-14 w-14 cursor-pointer justify-self-center lg:col-start-4 lg:h-20 lg:w-20"
+                        className="relative col-start-2 h-14 w-14 cursor-pointer justify-self-center dark:hidden lg:col-start-4 lg:h-20 lg:w-20"
                         title="GitHub"
                         target="_blank">
-                        <Image src="/images/github-logo.png" layout="fill" title="GitHub" alt="GitHub" />
+                        <Image src="/images/github-logo-light.png" layout="fill" title="GitHub" alt="GitHub" />
+                    </a>
+                </Link>
+                <Link href="https://github.com/yuchia0221" passHref>
+                    <a
+                        className="relative col-start-2 hidden h-14 w-14 cursor-pointer justify-self-center dark:inline-flex lg:col-start-4 lg:h-20 lg:w-20"
+                        title="GitHub"
+                        target="_blank">
+                        <Image src="/images/github-logo-dark.png" layout="fill" title="GitHub" alt="GitHub" />
                     </a>
                 </Link>
                 <Link href="https://www.linkedin.com/in/yu-chia-chen" passHref>
