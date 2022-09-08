@@ -73,7 +73,7 @@ function Navbar() {
                                 </Link>
                                 <Link href="/Yu-Chia Chen Resume.pdf">
                                     <a
-                                        className="shadow-lightBlue-500/50 cursor-pointer rounded-md border-2 border-lightBlue px-3 py-2 text-sm font-medium text-lightBlue shadow-md hover:bg-lightBlue hover:text-white dark:border-lightYellow dark:text-lightYellow dark:hover:bg-lightYellow dark:hover:bg-lightYellow dark:hover:text-black dark:hover:text-black"
+                                        className="shadow-lightBlue-500/50 cursor-pointer rounded-md border-2 border-lightBlue px-3 py-2 text-sm font-medium text-lightBlue shadow-md hover:bg-lightBlue hover:text-white dark:border-lightYellow dark:text-lightYellow dark:hover:bg-lightYellow dark:hover:text-black"
                                         target="_blank">
                                         Resumé
                                     </a>
