@@ -27,7 +27,7 @@ function DarkModeBtn() {
                         <Menu.Button className="p-2">
                             <svg
                                 className={classNames(
-                                    currentTheme === "light"
+                                    theme === "light"
                                         ? "h-6 w-6 self-center fill-yellow-200 stroke-lightYellow"
                                         : "hidden"
                                 )}
