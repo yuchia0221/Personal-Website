@@ -74,7 +74,9 @@ function DarkModeBtn() {
                                     strokeWidth="2"
                                     strokeLinejoin="round"
                                     className={classNames(
-                                        theme === "system" ? "self-center stroke-lightYellow" : "hidden"
+                                        theme === "system"
+                                            ? "self-center stroke-lightBlue dark:stroke-lightYellow"
+                                            : "hidden"
                                     )}></path>
                                 <path
                                     d="M14 15c0 3 2 5 2 5H8s2-2 2-5"
@@ -83,7 +85,9 @@ function DarkModeBtn() {
                                     strokeWidth="2"
                                     strokeLinecap="round"
                                     strokeLinejoin="round"
-                                    className={classNames(theme === "system" ? "stroke-lightYellow" : "hidden")}></path>
+                                    className={classNames(
+                                        theme === "system" ? "stroke-lightBlue dark:stroke-lightYellow" : "hidden"
+                                    )}></path>
                             </svg>
                         </Menu.Button>
                     </div>
@@ -152,7 +156,7 @@ function DarkModeBtn() {
                                             strokeWidth="2"
                                             strokeLinejoin="round"
                                             className={classNames(
-                                                theme === "system" ? "stroke-lightYellow" : "",
+                                                theme === "system" ? "stroke-lightBlue dark:stroke-lightYellow" : "",
                                                 "h-6 w-6 self-center"
                                             )}></path>
                                         <path
@@ -163,7 +167,7 @@ function DarkModeBtn() {
                                             strokeLinecap="round"
                                             strokeLinejoin="round"
                                             className={classNames(
-                                                theme === "system" ? "stroke-lightYellow" : "",
+                                                theme === "system" ? "stroke-lightBlue dark:stroke-lightYellow" : "",
                                                 "h-6 w-6 self-center"
                                             )}></path>
                                     </svg>
