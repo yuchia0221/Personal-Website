@@ -8,7 +8,7 @@ export default function Custom404() {
             <Header title="Aaron Chen | Page not Found" />
             <div className="mt-16 flex h-full w-full flex-col items-center space-y-4 lg:mt-32 xl:mt-8">
                 <div className="relative h-48 w-48 md:h-64 md:w-64 lg:h-72 lg:w-72">
-                    <Image src="/images/404-light.png" layout="fill"></Image>
+                    <Image src="/images/404-light.png" alt="404 Image" layout="fill"></Image>
                 </div>
                 <div className="text-2xl font-bold">This Page is Lost in Space</div>
                 <Link href="/" passHref>
