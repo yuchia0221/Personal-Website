@@ -5,8 +5,8 @@ function ProjectItem({ name, image, image_alt, technologies, intro, tags, github
     const tagColor = {
         Web: "bg-blue-300 dark:bg-blue-700",
         Cloud: "bg-fuchsia-300 dark:bg-fuchsia-700",
-        AI: "bg-rose-300 dark:bg-rose-700",
-        ML: "bg-lime-300 dark:bg-lime-700",
+        AI: "bg-rose-300 dark:bg-pink-700",
+        ML: "bg-lime-300 dark:bg-emerald-700",
     };
     const tagList = tags.map((tag, index) => {
         return (
@@ -62,7 +62,7 @@ function ProjectItem({ name, image, image_alt, technologies, intro, tags, github
         );
 
     return (
-        <div className="lg:4/5 w-5/6 rounded-xl border-2 border-lightBlue px-2 py-3 dark:border-lightYellow md:p-6 xl:w-3/5">
+        <div className="w-5/6 rounded-xl border-2 border-lightBlue px-2 py-3 dark:border-lightYellow md:p-6 lg:w-4/5 xl:w-3/5">
             <div className="grid grid-flow-row grid-cols-7 place-content-center space-x-2 md:grid-cols-10">
                 <div className="relative col-span-1 hidden place-self-center md:visible md:flex md:h-12 md:w-12">
                     <Image src={image} alt={image_alt} layout="fill" />
