@@ -96,13 +96,15 @@ function DarkModeBtn() {
                         leave="transition ease-in duration-75"
                         leaveFrom="transform opacity-100 scale-100"
                         leaveTo="transform opacity-0 scale-95">
-                        <Menu.Items className="absolute right-4 z-10 mt-4 w-28 rounded-md px-2 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none dark:ring-white">
+                        <Menu.Items className="absolute right-4 z-10 mt-4 w-28 rounded-md bg-white bg-opacity-95 p-1 shadow-lg ring-1 ring-lightBlue dark:bg-black dark:ring-white">
                             <Menu.Item>
-                                <button onClick={() => setTheme("light")} className="flex gap-2 py-1.5">
+                                <button
+                                    onClick={() => setTheme("light")}
+                                    className="justify-left relative flex w-full gap-2 rounded-md py-1.5 pl-2 hover:bg-lightBlue dark:hover:bg-lightYellow dark:hover:text-black">
                                     <svg
                                         className={classNames(
                                             theme === "light" ? "fill-yellow-200 stroke-lightYellow" : "",
-                                            "h-6 w-6 self-center"
+                                            "self-left h-6 w-6"
                                         )}
                                         xmlns="http://www.w3.org/2000/svg"
                                         fill="none"
@@ -124,51 +126,65 @@ function DarkModeBtn() {
                                 </button>
                             </Menu.Item>
                             <Menu.Item>
-                                <button onClick={() => setTheme("dark")} className="flex gap-2 py-1.5">
-                                    <svg
-                                        className={classNames(
-                                            theme === "dark" ? "stroke-lightYellow" : "",
-                                            "h-6 w-6 self-center"
-                                        )}
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        strokeWidth="2"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round">
-                                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                                    </svg>
-                                    Dark
-                                </button>
-                            </Menu.Item>
-
-                            <Menu.Item>
-                                <button onClick={() => setTheme("system")} className="flex gap-2 py-1.5">
-                                    <svg className="h-6 w-6 self-center" viewBox="0 0 24 24" fill="none">
-                                        <path
-                                            d="M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6Z"
-                                            fill="none"
-                                            stroke="currentColor"
-                                            strokeWidth="2"
-                                            strokeLinejoin="round"
+                                <div className="group">
+                                    <button
+                                        onClick={() => setTheme("dark")}
+                                        className="justify-left relative flex w-full gap-2 rounded-md py-1.5 pl-2 hover:bg-lightBlue dark:hover:bg-lightYellow dark:hover:text-black">
+                                        <svg
                                             className={classNames(
-                                                theme === "system" ? "stroke-lightBlue dark:stroke-lightYellow" : "",
+                                                theme === "dark"
+                                                    ? "dark:stroke-lightYellow dark:group-hover:stroke-black"
+                                                    : "",
                                                 "h-6 w-6 self-center"
-                                            )}></path>
-                                        <path
-                                            d="M14 15c0 3 2 5 2 5H8s2-2 2-5"
+                                            )}
+                                            xmlns="http://www.w3.org/2000/svg"
                                             fill="none"
                                             stroke="currentColor"
                                             strokeWidth="2"
                                             strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            className={classNames(
-                                                theme === "system" ? "stroke-lightBlue dark:stroke-lightYellow" : "",
-                                                "h-6 w-6 self-center"
-                                            )}></path>
-                                    </svg>
-                                    System
-                                </button>
+                                            strokeLinejoin="round">
+                                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                        </svg>
+                                        Dark
+                                    </button>
+                                </div>
+                            </Menu.Item>
+
+                            <Menu.Item>
+                                <div className="group">
+                                    <button
+                                        onClick={() => setTheme("system")}
+                                        className="justify-left relative flex w-full gap-2 rounded-md py-1.5 pl-2 hover:bg-lightBlue dark:hover:bg-lightYellow dark:hover:text-black">
+                                        <svg className="h-6 w-6 self-center" viewBox="0 0 24 24" fill="none">
+                                            <path
+                                                d="M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6Z"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeWidth="2"
+                                                strokeLinejoin="round"
+                                                className={classNames(
+                                                    theme === "system"
+                                                        ? "stroke-lightBlue dark:stroke-lightYellow dark:group-hover:stroke-black"
+                                                        : "",
+                                                    "h-6 w-6 self-center"
+                                                )}></path>
+                                            <path
+                                                d="M14 15c0 3 2 5 2 5H8s2-2 2-5"
+                                                fill="none"
+                                                stroke="currentColor"
+                                                strokeWidth="2"
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                className={classNames(
+                                                    theme === "system"
+                                                        ? "stroke-lightBlue dark:stroke-lightYellow dark:group-hover:stroke-black"
+                                                        : "",
+                                                    "h-6 w-6 self-center"
+                                                )}></path>
+                                        </svg>
+                                        System
+                                    </button>
+                                </div>
                             </Menu.Item>
                         </Menu.Items>
                     </Transition>
