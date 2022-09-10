@@ -24,7 +24,7 @@ function Contact() {
                 </Link>
                 <Link href="https://www.linkedin.com/in/yu-chia-chen" passHref>
                     <a
-                        className="relative col-start-4 h-14 w-14 cursor-pointer justify-self-center lg:col-start-6 lg:h-20 lg:w-20"
+                        className="relative col-start-4 h-14 w-14 cursor-pointer justify-self-center lg:col-start-6 lg:h-20 lg:w-20 dark:bg-white rounded-lg"
                         title="Linkedin"
                         target="_blank">
                         <Image src="/images/linkedin-logo.png" layout="fill" title="Linkedin" alt="Linkedin" />
