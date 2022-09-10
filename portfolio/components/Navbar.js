@@ -52,22 +52,22 @@ function Navbar() {
                         <div className="hidden md:block">
                             <div className="mx-20 flex items-baseline space-x-4">
                                 <Link href="/">
-                                    <a className="cursor-pointer rounded-md px-3 py-2 text-sm font-medium hover:text-lightBlue dark:hover:text-lightYellow">
+                                    <a className="cursor-pointer px-3 py-2 hover:text-lightBlue dark:hover:text-lightYellow">
                                         Home
                                     </a>
                                 </Link>
                                 <Link href="/about">
-                                    <a className="cursor-pointer rounded-md px-3 py-2 text-sm font-medium hover:text-lightBlue dark:hover:text-lightYellow">
+                                    <a className="cursor-pointer px-3 py-2 hover:text-lightBlue dark:hover:text-lightYellow">
                                         About
                                     </a>
                                 </Link>
                                 <Link href="/projects">
-                                    <a className="cursor-pointer rounded-md px-3 py-2 text-sm font-medium hover:text-lightBlue dark:hover:text-lightYellow">
+                                    <a className="cursor-pointer px-3 py-2 hover:text-lightBlue dark:hover:text-lightYellow">
                                         Projects
                                     </a>
                                 </Link>
                                 <Link href="/contact">
-                                    <a className="cursor-pointer rounded-md px-3 py-2 text-sm font-medium hover:text-lightBlue dark:hover:text-lightYellow">
+                                    <a className="cursor-pointer px-3 py-2 hover:text-lightBlue dark:hover:text-lightYellow">
                                         Contact
                                     </a>
                                 </Link>
@@ -111,28 +111,28 @@ function Navbar() {
                     <div className="md:hidden" id="mobile-menu">
                         <div className="space-y-1 px-2 pt-2 pb-3 text-center sm:px-3">
                             <Link href="/">
-                                <a className="block cursor-pointer rounded-md px-3 py-2 text-base font-medium hover:bg-lightBlue hover:text-white dark:hover:bg-lightYellow dark:hover:text-black">
+                                <a className="block cursor-pointer rounded-md px-3 py-2 hover:bg-lightBlue hover:text-white dark:hover:bg-lightYellow dark:hover:text-black">
                                     Home
                                 </a>
                             </Link>
                             <Link href="/about">
-                                <a className="block cursor-pointer rounded-md px-3 py-2 text-base font-medium hover:bg-lightBlue hover:text-white dark:hover:bg-lightYellow dark:hover:text-black">
+                                <a className="block cursor-pointer rounded-md px-3 py-2 hover:bg-lightBlue hover:text-white dark:hover:bg-lightYellow dark:hover:text-black">
                                     About
                                 </a>
                             </Link>
                             <Link href="/projects">
-                                <a className="block cursor-pointer rounded-md px-3 py-2 text-base font-medium hover:bg-lightBlue hover:text-white dark:hover:bg-lightYellow dark:hover:text-black">
+                                <a className="block cursor-pointer rounded-md px-3 py-2 hover:bg-lightBlue hover:text-white dark:hover:bg-lightYellow dark:hover:text-black">
                                     Projects
                                 </a>
                             </Link>
                             <Link href="/contact">
-                                <a className="block cursor-pointer rounded-md px-3 py-2 text-base font-medium hover:bg-lightBlue hover:text-white dark:hover:bg-lightYellow dark:hover:text-black">
+                                <a className="block cursor-pointer rounded-md px-3 py-2 hover:bg-lightBlue hover:text-white dark:hover:bg-lightYellow dark:hover:text-black">
                                     Contact
                                 </a>
                             </Link>
                             <Link href="/Yu-Chia Chen Resume.pdf">
                                 <a
-                                    className="block cursor-pointer rounded-md px-3 py-2 text-base font-medium hover:bg-lightBlue hover:text-white dark:hover:bg-lightYellow dark:hover:text-black"
+                                    className="block cursor-pointer rounded-md px-3 py-2 hover:bg-lightBlue hover:text-white dark:hover:bg-lightYellow dark:hover:text-black"
                                     target="_blank">
                                     Resumé
                                 </a>
