@@ -7,7 +7,7 @@ export default function AboutPage() {
     return (
         <>
             <Header title="Aaron Chen | About" />
-            <div className="space-y-8 lg:space-y-12">
+            <div className="mt-4 mb-16 flex flex-col flex-wrap items-center space-y-8 lg:space-y-12">
                 <Education />
                 <Work />
                 <Research />

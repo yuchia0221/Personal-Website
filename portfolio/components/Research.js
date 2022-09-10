@@ -3,15 +3,15 @@ import Link from "next/link";
 
 function Work() {
     return (
-        <div className="pb-12 ">
-            <div className="my-5 block text-center text-xl font-semibold lg:my-6 lg:ml-48 lg:text-left lg:text-3xl">
+        <div className="w-5/6 space-y-8 rounded-xl border-2 border-lightBlue p-4 pb-12 dark:border-lightYellow lg:w-3/4">
+            <div className="block text-center text-xl font-semibold text-lightBlue dark:text-lightYellow lg:pl-5 lg:text-left lg:text-3xl">
                 Research Experience & Publication
             </div>
-            <div className="grid grid-flow-row grid-cols-7 gap-8">
+            <div className="grid grid-flow-row grid-cols-9 gap-x-10 gap-y-8">
                 <div className="relative col-span-1 col-start-2 row-span-2 h-12 w-12 justify-self-center lg:h-16 lg:w-16">
                     <Image src="/images/niu-logo.png" alt="Microsoft Logo" layout="fill" />
                 </div>
-                <div className="col-span-4 row-span-4 space-y-1 text-sm lg:text-lg">
+                <div className="col-span-6 row-span-4 space-y-1 text-sm lg:text-lg">
                     <div>Research Assistant @ Nation Ilan University</div>
                     <div className="text-gray-500">Dec. 2020 - July 2022</div>
                     <div>Supervisor: Prof. Chih-Hsien Hsia (Computer Science and Information Engineering)</div>
