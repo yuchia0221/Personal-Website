@@ -1,14 +1,13 @@
 import { useTheme } from "next-themes";
 import { Fragment, useEffect, useState } from "react";
 import { Menu, Transition } from "@headlessui/react";
-import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(" ");
 }
 
 function DarkModeBtn() {
-    const { systemTheme, theme, setTheme } = useTheme();
+    const { theme, setTheme } = useTheme();
     const [mounted, setMounted] = useState(false);
 
     useEffect(() => {
@@ -17,9 +16,6 @@ function DarkModeBtn() {
 
     const renderThemeChanger = () => {
         if (!mounted) return null;
-
-        const currentTheme = theme === "system" ? systemTheme : theme;
-
         return (
             <>
                 <Menu as="div" className="relative inline-block text-left">
