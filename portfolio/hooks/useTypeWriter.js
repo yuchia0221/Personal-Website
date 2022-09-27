@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 
-function makeEnum(arr) {
+const makeEnum = (arr) => {
     let obj = {};
     for (let val of arr) {
         obj[val] = Symbol(val);
     }
     return Object.freeze(obj);
-}
+};
 
 const TYPING_INTERVAL_MIN = 80;
 const TYPING_INTERVAL_MAX = 150;

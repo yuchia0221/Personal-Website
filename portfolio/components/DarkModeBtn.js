@@ -2,11 +2,11 @@ import { useTheme } from "next-themes";
 import { Fragment, useEffect, useState } from "react";
 import { Menu, Transition } from "@headlessui/react";
 
-function classNames(...classes) {
+const classNames = (...classes) => {
     return classes.filter(Boolean).join(" ");
-}
+};
 
-function DarkModeBtn() {
+const DarkModeBtn = () => {
     const { theme, setTheme } = useTheme();
     const [mounted, setMounted] = useState(false);
 
@@ -194,6 +194,6 @@ function DarkModeBtn() {
     };
 
     return <div className="relative self-center">{renderThemeChanger()}</div>;
-}
+};
 
 export default DarkModeBtn;

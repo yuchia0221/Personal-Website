@@ -2,7 +2,7 @@ import React from "react";
 import TypeWriter from "./TypeWriter";
 import Link from "next/link";
 
-function Introduction() {
+const Introduction = () => {
     const typingWords = ["CS student @ Rice", "software engineer", "baseball lover"];
     return (
         <div className="mt-48 flex flex-col items-center space-y-3 md:space-y-6 lg:mt-36 xl:mt-32">
@@ -16,6 +16,6 @@ function Introduction() {
             </Link>
         </div>
     );
-}
+};
 
 export default Introduction;

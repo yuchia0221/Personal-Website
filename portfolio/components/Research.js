@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-function Work() {
+const Work = () => {
     return (
         <div className="w-5/6 space-y-8 rounded-xl border-2 border-lightBlue p-4 pb-12 dark:border-lightYellow lg:w-3/4">
             <div className="block text-center text-xl font-semibold text-lightBlue dark:text-lightYellow lg:pl-5 lg:text-left lg:text-3xl">
@@ -41,6 +41,6 @@ function Work() {
             </div>
         </div>
     );
-}
+};
 
 export default Work;

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-function ProjectItem({ name, image, image_alt, technologies, intro, tags, github, link }) {
+const ProjectItem = ({ name, image, image_alt, technologies, intro, tags, github, link }) => {
     const tagColor = {
         Web: "bg-blue-300 dark:bg-blue-700",
         Cloud: "bg-fuchsia-300 dark:bg-fuchsia-700",
@@ -86,6 +86,6 @@ function ProjectItem({ name, image, image_alt, technologies, intro, tags, github
             </div>
         </div>
     );
-}
+};
 
 export default ProjectItem;

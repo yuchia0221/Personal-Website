@@ -1,6 +1,6 @@
 import ProjectItem from "./ProjectItem";
 
-function Projects() {
+const Projects = () => {
     const projects = [
         {
             name: "Data Structure Visualizer",
@@ -61,6 +61,6 @@ function Projects() {
     return (
         <div className="my-4 flex flex-col flex-wrap items-center space-y-4 lg:my-12 lg:space-y-8">{projectItems}</div>
     );
-}
+};
 
 export default Projects;

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-function Contact() {
+const Contact = () => {
     return (
         <>
             <div className="block p-12 text-center text-4xl font-semibold lg:p-24">Find me on</div>
@@ -24,7 +24,7 @@ function Contact() {
                 </Link>
                 <Link href="https://www.linkedin.com/in/yu-chia-chen" passHref>
                     <a
-                        className="relative col-start-4 h-14 w-14 cursor-pointer justify-self-center lg:col-start-6 lg:h-20 lg:w-20 dark:bg-white rounded-lg"
+                        className="relative col-start-4 h-14 w-14 cursor-pointer justify-self-center rounded-lg dark:bg-white lg:col-start-6 lg:h-20 lg:w-20"
                         title="Linkedin"
                         target="_blank">
                         <Image src="/images/linkedin-logo.png" layout="fill" title="Linkedin" alt="Linkedin" />
@@ -59,6 +59,6 @@ function Contact() {
             </div>
         </>
     );
-}
+};
 
 export default Contact;

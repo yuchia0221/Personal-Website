@@ -2,7 +2,7 @@ import React from "react";
 import Wave from "react-wavify";
 import Introduction from "./Introduction";
 
-function Hero() {
+const Hero = () => {
     const wave_options = {
         height: 50,
         amplitude: 50,
@@ -27,6 +27,6 @@ function Hero() {
             />
         </>
     );
-}
+};
 
 export default Hero;

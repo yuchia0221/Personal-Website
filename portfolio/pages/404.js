@@ -2,7 +2,7 @@ import Header from "../components/Header";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Custom404() {
+const Custom404 = () => {
     return (
         <>
             <Header title="Aaron Chen | Page not Found" />
@@ -36,4 +36,6 @@ export default function Custom404() {
             </div>
         </>
     );
-}
+};
+
+export default Custom404;

@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import Work from "../components/Work";
 import Research from "../components/Research";
 
-export default function AboutPage() {
+const AboutPage = () => {
     return (
         <>
             <Header title="Aaron Chen | About" />
@@ -15,3 +15,5 @@ export default function AboutPage() {
         </>
     );
 }
+
+export default AboutPage;

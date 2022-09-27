@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import DarkModeBtn from "./DarkModeBtn";
 
-function Navbar() {
+const Navbar = () => {
     const [open, setOpen] = useState("");
     const [visibility, setVisibility] = useState(false);
     const [isClick, setIsClick] = useState(false);
@@ -143,6 +143,6 @@ function Navbar() {
             </nav>
         </>
     );
-}
+};
 
 export default Navbar;

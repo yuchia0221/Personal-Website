@@ -2,7 +2,7 @@ import React from "react";
 import cn from "classnames";
 import { Phase, useTypeWriter } from "../hooks/useTypeWriter";
 
-function TypeWriter({ typingWords, textColor }) {
+const TypeWriter = ({ typingWords, textColor }) => {
     const { currentText, selectedWords, phase } = useTypeWriter({ typingWords: typingWords });
     return (
         <h2 className="md:text-5xl">
@@ -17,6 +17,6 @@ function TypeWriter({ typingWords, textColor }) {
             </span>
         </h2>
     );
-}
+};
 
 export default TypeWriter;

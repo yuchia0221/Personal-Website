@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Navbar from "./Navbar";
 
-function Header({ title }) {
+const Header = ({ title }) => {
     return (
         <>
             <Head>
@@ -10,6 +10,6 @@ function Header({ title }) {
             <Navbar />
         </>
     );
-}
+};
 
 export default Header;
