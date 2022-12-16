@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Contact = () => {
-    const { theme } = useTheme();
+    const { resolvedTheme } = useTheme();
 
     return (
         <>
@@ -12,13 +12,15 @@ const Contact = () => {
                 <div className="flex flex-col">
                     <Link href="https://github.com/yuchia0221" passHref>
                         <a
-                            className="relative h-14 w-14 cursor-pointer justify-self-center dark:hidden lg:h-20 lg:w-20"
+                            className="relative h-14 w-14 cursor-pointer justify-self-center lg:h-20 lg:w-20"
                             title="GitHub"
                             target="_blank"
                         >
                             <Image
                                 src={
-                                    theme === "dark" ? "/images/github-logo-dark.png" : "/images/github-logo-light.png"
+                                    resolvedTheme === "dark"
+                                        ? "/images/github-logo-dark.png"
+                                        : "/images/github-logo-light.png"
                                 }
                                 layout="fill"
                                 title="GitHub"
