@@ -1,61 +1,66 @@
+import { useTheme } from "next-themes";
 import Image from "next/image";
 import Link from "next/link";
 
 const Contact = () => {
+    const { theme } = useTheme();
+
     return (
         <>
-            <div className="block p-12 text-center text-4xl font-semibold lg:p-24">Find me on</div>
-            <div className="grid grid-flow-row grid-cols-7 lg:grid-cols-11">
-                <Link href="https://github.com/yuchia0221" passHref>
-                    <a
-                        className="relative col-start-2 h-14 w-14 cursor-pointer justify-self-center dark:hidden lg:col-start-4 lg:h-20 lg:w-20"
-                        title="GitHub"
-                        target="_blank">
-                        <Image src="/images/github-logo-light.png" layout="fill" title="GitHub" alt="GitHub" />
-                    </a>
-                </Link>
-                <Link href="https://github.com/yuchia0221" passHref>
-                    <a
-                        className="relative col-start-2 hidden h-14 w-14 cursor-pointer justify-self-center dark:inline-flex lg:col-start-4 lg:h-20 lg:w-20"
-                        title="GitHub"
-                        target="_blank">
-                        <Image src="/images/github-logo-dark.png" layout="fill" title="GitHub" alt="GitHub" />
-                    </a>
-                </Link>
-                <Link href="https://www.linkedin.com/in/yu-chia-chen" passHref>
-                    <a
-                        className="relative col-start-4 h-14 w-14 cursor-pointer justify-self-center rounded-lg dark:bg-white lg:col-start-6 lg:h-20 lg:w-20"
-                        title="Linkedin"
-                        target="_blank">
-                        <Image src="/images/linkedin-logo.png" layout="fill" title="Linkedin" alt="Linkedin" />
-                    </a>
-                </Link>
-                <Link href="mailto:yuchiachen99@gmail.com" passHref>
-                    <a
-                        className="relative col-start-6 h-14 w-14 cursor-pointer justify-self-center lg:col-start-8 lg:h-20 lg:w-20"
-                        title="Email">
-                        <Image src="/images/email.png" layout="fill" title="Email" alt="Email" />
-                    </a>
-                </Link>
-                <Link href="https://github.com/yuchia0221" passHref>
-                    <a
-                        className="col-start-2 row-start-2 py-3 text-center text-sm font-semibold lg:col-start-4 lg:text-xl"
-                        target="_blank">
-                        GitHub
-                    </a>
-                </Link>
-                <Link href="https://www.linkedin.com/in/yu-chia-chen" passHref>
-                    <a
-                        className="col-start-4 row-start-2 py-3 text-center text-sm font-semibold lg:col-start-6 lg:text-xl"
-                        target="_blank">
-                        Linkedin
-                    </a>
-                </Link>
-                <Link href="mailto:yuchiachen99@gmail.com" passHref>
-                    <a className="col-start-6 row-start-2 py-3 text-center text-sm font-semibold lg:col-start-8 lg:text-xl">
-                        Email
-                    </a>
-                </Link>
+            <div className="flex justify-center py-20 text-center text-4xl font-semibold">Find me on</div>
+            <div className="mx-auto flex w-5/6 flex-row justify-around lg:w-1/2">
+                <div className="flex flex-col">
+                    <Link href="https://github.com/yuchia0221" passHref>
+                        <a
+                            className="relative h-14 w-14 cursor-pointer justify-self-center dark:hidden lg:h-20 lg:w-20"
+                            title="GitHub"
+                            target="_blank"
+                        >
+                            <Image
+                                src={
+                                    theme === "dark" ? "/images/github-logo-dark.png" : "/images/github-logo-light.png"
+                                }
+                                layout="fill"
+                                title="GitHub"
+                                alt="GitHub"
+                            />
+                        </a>
+                    </Link>
+                    <Link href="https://github.com/yuchia0221" passHref>
+                        <a className="py-3 text-center text-sm font-semibold lg:text-xl" target="_blank">
+                            GitHub
+                        </a>
+                    </Link>
+                </div>
+                <div className="flex flex-col">
+                    <Link href="https://www.linkedin.com/in/yu-chia-chen" passHref>
+                        <a
+                            className="relative h-14 w-14 cursor-pointer justify-self-center rounded-lg dark:bg-white lg:h-20 lg:w-20"
+                            title="Linkedin"
+                            target="_blank"
+                        >
+                            <Image src="/images/linkedin-logo.png" layout="fill" title="Linkedin" alt="Linkedin" />
+                        </a>
+                    </Link>
+                    <Link href="https://www.linkedin.com/in/yu-chia-chen" passHref>
+                        <a className="py-3 text-center text-sm font-semibold lg:text-xl" target="_blank">
+                            Linkedin
+                        </a>
+                    </Link>
+                </div>
+                <div className="flex flex-col">
+                    <Link href="mailto:yuchiachen99@gmail.com" passHref>
+                        <a
+                            className="relative h-14 w-14 cursor-pointer justify-self-center lg:h-20 lg:w-20"
+                            title="Email"
+                        >
+                            <Image src="/images/email.png" layout="fill" title="Email" alt="Email" />
+                        </a>
+                    </Link>
+                    <Link href="mailto:yuchiachen99@gmail.com" passHref>
+                        <a className="py-3 text-center text-sm font-semibold lg:text-xl">Email</a>
+                    </Link>
+                </div>
             </div>
         </>
     );
