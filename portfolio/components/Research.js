@@ -17,7 +17,7 @@ const Work = () => {
                     <div>Supervisor: Prof. Chih-Hsien Hsia (Computer Science and Information Engineering)</div>
                     <div className="space-y-3 pt-2 lg:text-justify">
                         <p>
-                            <span className="font-semibold">Yu-Chia Chen</span>, Zih-Ching Chen, and Chih-Hsien Hsia,
+                            <span className="font-semibold">Yu-Chia Chen</span>, Sin-Ye Jhong, and Chih-Hsien Hsia,
                             &quot;
                             <Link href="https://doi.org/10.1145/3554923" passHref>
                                 <a
