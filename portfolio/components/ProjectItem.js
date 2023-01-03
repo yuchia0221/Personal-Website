@@ -3,16 +3,18 @@ import Link from "next/link";
 
 const ProjectItem = ({ name, image, image_alt, technologies, intro, tags, github, link }) => {
     const tagColor = {
-        Web: "bg-blue-300 dark:bg-blue-700",
-        Cloud: "bg-fuchsia-300 dark:bg-fuchsia-700",
-        AI: "bg-rose-300 dark:bg-pink-700",
-        ML: "bg-lime-300 dark:bg-emerald-700",
+        Web: "w-10 rounded-lg bg-blue-300 dark:bg-blue-700 md:h-7 md:w-16",
+        Cloud: "w-10 rounded-lg bg-fuchsia-300 dark:bg-fuchsia-700 md:h-7 md:w-16",
+        AI: "w-10 rounded-lg bg-rose-300 dark:bg-pink-700 md:h-7 md:w-16",
+        ML: "w-10 rounded-lg bg-lime-300 dark:bg-emerald-700 md:h-7 md:w-16",
+        "High-Performance": "w-28 rounded-md bg-lightYellow dark:bg-yellow-600 md:w-36",
     };
     const tagList = tags.map((tag, index) => {
         return (
             <div
                 key={index}
-                className={`inline-flex h-5 w-10 items-center justify-center rounded-lg text-xs md:h-7 md:w-16 md:text-base ${tagColor[tag]}`}>
+                className={`inline-flex h-7 items-center justify-center text-xs md:text-base ${tagColor[tag]}`}
+            >
                 {tag}
             </div>
         );
@@ -22,7 +24,8 @@ const ProjectItem = ({ name, image, image_alt, technologies, intro, tags, github
             <Link href={github}>
                 <a
                     className="text-lg text-sky-600 hover:text-sky-900 dark:text-lightYellow dark:hover:text-yellow-500 md:text-2xl"
-                    target="_blank">
+                    target="_blank"
+                >
                     {name}
                 </a>
             </Link>
@@ -45,14 +48,16 @@ const ProjectItem = ({ name, image, image_alt, technologies, intro, tags, github
                 <Link href={github}>
                     <a
                         className="relative inline-flex h-6 w-6 dark:hidden lg:h-11 lg:w-11 xl:h-12 xl:w-12"
-                        target="_blank">
+                        target="_blank"
+                    >
                         <Image src="/images/github-logo-light.png" alt="GitHub" layout="fill" />
                     </a>
                 </Link>
                 <Link href={github}>
                     <a
                         className="relative hidden h-6 w-6 dark:inline-flex lg:h-11 lg:w-11 xl:h-12 xl:w-12"
-                        target="_blank">
+                        target="_blank"
+                    >
                         <Image src="/images/github-logo-dark.png" alt="GitHub" layout="fill" />
                     </a>
                 </Link>
