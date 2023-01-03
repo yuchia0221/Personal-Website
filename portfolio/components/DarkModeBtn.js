@@ -1,6 +1,6 @@
+import { Menu, Transition } from "@headlessui/react";
 import { useTheme } from "next-themes";
 import { Fragment, useEffect, useState } from "react";
-import { Menu, Transition } from "@headlessui/react";
 
 const classNames = (...classes) => {
     return classes.filter(Boolean).join(" ");
@@ -33,7 +33,8 @@ const DarkModeBtn = () => {
                                 stroke="currentColor"
                                 strokeWidth="2"
                                 strokeLinecap="round"
-                                strokeLinejoin="round">
+                                strokeLinejoin="round"
+                            >
                                 <circle cx="12" cy="12" r="5"></circle>
                                 <line x1="12" y1="1" x2="12" y2="3"></line>
                                 <line x1="12" y1="21" x2="12" y2="23"></line>
@@ -54,15 +55,18 @@ const DarkModeBtn = () => {
                                 stroke="currentColor"
                                 strokeWidth="2"
                                 strokeLinecap="round"
-                                strokeLinejoin="round">
+                                strokeLinejoin="round"
+                            >
                                 <path
                                     className={classNames(theme === "dark" ? "stroke-lightYellow" : "hidden")}
-                                    d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                    d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"
+                                ></path>
                             </svg>
                             <svg
                                 className={classNames(theme === "system" ? "h-6 w-6 self-center" : "hidden")}
                                 viewBox="0 0 24 24"
-                                fill="none">
+                                fill="none"
+                            >
                                 <path
                                     d="M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6Z"
                                     fill="none"
@@ -73,7 +77,8 @@ const DarkModeBtn = () => {
                                         theme === "system"
                                             ? "self-center stroke-lightBlue dark:stroke-lightYellow"
                                             : "hidden"
-                                    )}></path>
+                                    )}
+                                ></path>
                                 <path
                                     d="M14 15c0 3 2 5 2 5H8s2-2 2-5"
                                     fill="none"
@@ -83,7 +88,8 @@ const DarkModeBtn = () => {
                                     strokeLinejoin="round"
                                     className={classNames(
                                         theme === "system" ? "stroke-lightBlue dark:stroke-lightYellow" : "hidden"
-                                    )}></path>
+                                    )}
+                                ></path>
                             </svg>
                         </Menu.Button>
                     </div>
@@ -95,12 +101,14 @@ const DarkModeBtn = () => {
                         enterTo="transform opacity-100 scale-100"
                         leave="transition ease-in duration-75"
                         leaveFrom="transform opacity-100 scale-100"
-                        leaveTo="transform opacity-0 scale-95">
+                        leaveTo="transform opacity-0 scale-95"
+                    >
                         <Menu.Items className="absolute right-4 z-10 mt-4 w-28 rounded-md bg-white bg-opacity-95 p-1 shadow-lg ring-1 ring-lightBlue dark:bg-black dark:ring-white">
                             <Menu.Item>
                                 <button
                                     onClick={() => setTheme("light")}
-                                    className="justify-left relative flex w-full gap-2 rounded-md py-1.5 pl-2 hover:bg-lightBlue dark:hover:bg-lightYellow dark:hover:text-black">
+                                    className="justify-left relative flex w-full gap-2 rounded-md py-1.5 pl-2 hover:bg-lightBlue dark:hover:bg-lightYellow dark:hover:text-black"
+                                >
                                     <svg
                                         className={classNames(
                                             theme === "light" ? "fill-yellow-200 stroke-lightYellow" : "",
@@ -111,7 +119,8 @@ const DarkModeBtn = () => {
                                         stroke="currentColor"
                                         strokeWidth="2"
                                         strokeLinecap="round"
-                                        strokeLinejoin="round">
+                                        strokeLinejoin="round"
+                                    >
                                         <circle cx="12" cy="12" r="5"></circle>
                                         <line x1="12" y1="1" x2="12" y2="3"></line>
                                         <line x1="12" y1="21" x2="12" y2="23"></line>
@@ -129,7 +138,8 @@ const DarkModeBtn = () => {
                                 <div className="group">
                                     <button
                                         onClick={() => setTheme("dark")}
-                                        className="justify-left relative flex w-full gap-2 rounded-md py-1.5 pl-2 hover:bg-lightBlue dark:hover:bg-lightYellow dark:hover:text-black">
+                                        className="justify-left relative flex w-full gap-2 rounded-md py-1.5 pl-2 hover:bg-lightBlue dark:hover:bg-lightYellow dark:hover:text-black"
+                                    >
                                         <svg
                                             className={classNames(
                                                 theme === "dark"
@@ -142,7 +152,8 @@ const DarkModeBtn = () => {
                                             stroke="currentColor"
                                             strokeWidth="2"
                                             strokeLinecap="round"
-                                            strokeLinejoin="round">
+                                            strokeLinejoin="round"
+                                        >
                                             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                                         </svg>
                                         Dark
@@ -154,7 +165,8 @@ const DarkModeBtn = () => {
                                 <div className="group">
                                     <button
                                         onClick={() => setTheme("system")}
-                                        className="justify-left relative flex w-full gap-2 rounded-md py-1.5 pl-2 hover:bg-lightBlue dark:hover:bg-lightYellow dark:hover:text-black">
+                                        className="justify-left relative flex w-full gap-2 rounded-md py-1.5 pl-2 hover:bg-lightBlue dark:hover:bg-lightYellow dark:hover:text-black"
+                                    >
                                         <svg className="h-6 w-6 self-center" viewBox="0 0 24 24" fill="none">
                                             <path
                                                 d="M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6Z"
@@ -167,7 +179,8 @@ const DarkModeBtn = () => {
                                                         ? "stroke-lightBlue dark:stroke-lightYellow dark:group-hover:stroke-black"
                                                         : "",
                                                     "h-6 w-6 self-center"
-                                                )}></path>
+                                                )}
+                                            ></path>
                                             <path
                                                 d="M14 15c0 3 2 5 2 5H8s2-2 2-5"
                                                 fill="none"
@@ -180,7 +193,8 @@ const DarkModeBtn = () => {
                                                         ? "stroke-lightBlue dark:stroke-lightYellow dark:group-hover:stroke-black"
                                                         : "",
                                                     "h-6 w-6 self-center"
-                                                )}></path>
+                                                )}
+                                            ></path>
                                         </svg>
                                         System
                                     </button>

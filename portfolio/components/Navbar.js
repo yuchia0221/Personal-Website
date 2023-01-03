@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
 import { Transition } from "@headlessui/react";
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import DarkModeBtn from "./DarkModeBtn";
 
 const Navbar = () => {
@@ -74,7 +74,8 @@ const Navbar = () => {
                                 <Link href="/Yu-Chia Chen Resume.pdf">
                                     <a
                                         className="shadow-lightBlue-500/50 cursor-pointer rounded-md border-2 border-lightBlue px-3 py-2 text-sm font-medium text-lightBlue shadow-md hover:bg-lightBlue hover:text-white dark:border-lightYellow dark:text-lightYellow dark:hover:bg-lightYellow dark:hover:text-black"
-                                        target="_blank">
+                                        target="_blank"
+                                    >
                                         Resumé
                                     </a>
                                 </Link>
@@ -91,7 +92,8 @@ const Navbar = () => {
                             title="hamburger menu button"
                             role="none"
                             className={`hamburger block ${open} focus:outline-none md:hidden`}
-                            onClick={handleIsClick}>
+                            onClick={handleIsClick}
+                        >
                             <span className="hamburger-top dark:bg-white"></span>
                             <span className="hamburger-middle dark:bg-white"></span>
                             <span className="hamburger-bottom dark:bg-white"></span>
@@ -107,7 +109,8 @@ const Navbar = () => {
                     enterTo="opacity-100 scale-100"
                     leave="transition ease-in duration-75 transform"
                     leaveFrom="opacity-100 scale-100"
-                    leaveTo="opacity-0 scale-95">
+                    leaveTo="opacity-0 scale-95"
+                >
                     <div className="md:hidden" id="mobile-menu">
                         <div className="space-y-1 px-2 pt-2 pb-3 text-center sm:px-3">
                             <Link href="/">
@@ -133,7 +136,8 @@ const Navbar = () => {
                             <Link href="/Yu-Chia Chen Resume.pdf">
                                 <a
                                     className="block cursor-pointer rounded-md px-3 py-2 hover:bg-lightBlue hover:text-white dark:hover:bg-lightYellow dark:hover:text-black"
-                                    target="_blank">
+                                    target="_blank"
+                                >
                                     Resumé
                                 </a>
                             </Link>

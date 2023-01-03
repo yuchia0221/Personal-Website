@@ -1,4 +1,3 @@
-import React from "react";
 import cn from "classnames";
 import { Phase, useTypeWriter } from "../hooks/useTypeWriter";
 
@@ -12,7 +11,8 @@ const TypeWriter = ({ typingWords, textColor }) => {
                     ["end-cursor"]: phase !== Phase.Deleting,
                     ["blinking"]: phase === Phase.Pausing,
                 })}
-                aria-label={selectedWords}>
+                aria-label={selectedWords}
+            >
                 {currentText}
             </span>
         </h2>

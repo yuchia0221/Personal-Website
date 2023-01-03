@@ -1,6 +1,5 @@
-import React from "react";
-import TypeWriter from "./TypeWriter";
 import Link from "next/link";
+import TypeWriter from "./TypeWriter";
 
 const Introduction = () => {
     const typingWords = ["CS student @ Rice", "software engineer", "baseball lover"];
