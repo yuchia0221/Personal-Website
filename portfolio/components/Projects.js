@@ -9,7 +9,7 @@ const Projects = () => {
             technologies: "Node.js, Express.js, React.js, Tailwind CSS, MongoDB, OAuth 2.0, Heroku, Cloudinary",
             introduction: "A social media web app just like FaceBook",
             tags: ["Web", "Cloud"],
-            github: "https://github.com/yuchia0221/COMP531-Web-Development/tree/main/final",
+            github: null,
             link: "https://ricebook-client.surge.sh",
         },
         {
@@ -41,7 +41,7 @@ const Projects = () => {
             technologies: "C++, Cilk Plus",
             introduction: "A parallel program using Cilk Plus to find the best next move in Othello game",
             tags: ["High-Performance"],
-            github: "https://github.com/yuchia0221/COMP534-Parallel-Computing/tree/main/hw1",
+            github: null,
             link: null,
         },
         {
@@ -51,7 +51,7 @@ const Projects = () => {
             technologies: "C++, OpenMP",
             introduction: "A multithreaded algorithm using OpenMP to expedite LU Decomposition",
             tags: ["High-Performance"],
-            github: "https://github.com/yuchia0221/COMP534-Parallel-Computing/tree/main/hw2",
+            github: null,
             link: null,
         },
         {
@@ -61,7 +61,7 @@ const Projects = () => {
             technologies: "C++, OpenMPI",
             introduction: "A message-passing algorithm with OpenMPI to accelerate matrix multiplication",
             tags: ["High-Performance"],
-            github: "https://github.com/yuchia0221/COMP534-Parallel-Computing/tree/main/hw3",
+            github: null,
             link: null,
         },
         {
@@ -71,7 +71,7 @@ const Projects = () => {
             technologies: "C++, CUDA",
             introduction: "A data-parallel algorithm for hole compaction using CUDA",
             tags: ["High-Performance"],
-            github: "https://github.com/yuchia0221/COMP534-Parallel-Computing/tree/main/hw4",
+            github: null,
             link: null,
         },
     ];
