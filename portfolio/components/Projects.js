@@ -41,7 +41,7 @@ const Projects = () => {
             technologies: "C++, Cilk Plus",
             introduction: "A parallel program using Cilk Plus to find the best next move in Othello game",
             tags: ["High-Performance"],
-            github: null,
+            github: "https://github.com/yuchia0221/Othello-Parallel-Exploratory-Search",
             link: null,
         },
         {
@@ -51,7 +51,7 @@ const Projects = () => {
             technologies: "C++, OpenMP",
             introduction: "A multithreaded algorithm using OpenMP to expedite LU Decomposition",
             tags: ["High-Performance"],
-            github: null,
+            github: "https://github.com/yuchia0221/Parallel-LU-Decomposition",
             link: null,
         },
         {
@@ -61,7 +61,7 @@ const Projects = () => {
             technologies: "C++, OpenMPI",
             introduction: "A message-passing algorithm with OpenMPI to accelerate matrix multiplication",
             tags: ["High-Performance"],
-            github: null,
+            github: "https://github.com/yuchia0221/2.5D-Matrix-Multiplication",
             link: null,
         },
         {
@@ -71,7 +71,7 @@ const Projects = () => {
             technologies: "C++, CUDA",
             introduction: "A data-parallel algorithm for hole compaction using CUDA",
             tags: ["High-Performance"],
-            github: null,
+            github: "https://github.com/yuchia0221/Data-parallel-Hole-Compaction",
             link: null,
         },
     ];
