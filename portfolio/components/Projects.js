@@ -9,7 +9,7 @@ const Projects = () => {
             technologies: "Node.js, Express.js, React.js, Tailwind CSS, MongoDB, OAuth 2.0, Heroku, Cloudinary",
             introduction: "A social media web app just like FaceBook",
             tags: ["Web", "Cloud"],
-            github: null,
+            github: "https://github.com/yuchia0221/RiceBook",
             link: "https://ricebook-client.surge.sh",
         },
         {
