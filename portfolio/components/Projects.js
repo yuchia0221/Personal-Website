@@ -1,7 +1,7 @@
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
-    const webAppProjects = [
+    const fullStackProjects = [
         {
             name: "RiceBook",
             image: "/images/ricebook.png",
@@ -117,10 +117,10 @@ const Projects = () => {
         <div className="my-4 flex flex-col space-y-4 md:my-12 lg:space-y-8">
             <div className="flex flex-col space-y-4 lg:space-y-8">
                 <div className="block text-center text-xl font-semibold text-lightBlue dark:text-lightYellow lg:pl-5 lg:text-3xl">
-                    Web Development
+                    Full-Stack Development
                 </div>
                 <div className="flex flex-col flex-wrap items-center space-y-4 lg:space-y-8">
-                    {generateProjectItems(webAppProjects)}
+                    {generateProjectItems(fullStackProjects)}
                 </div>
             </div>
             <div className="flex flex-col space-y-4 lg:space-y-8">
