@@ -17,33 +17,34 @@ const Work = () => {
                     <div>Supervisor: Prof. Chih-Hsien Hsia (Computer Science and Information Engineering)</div>
                     <div className="space-y-3 pt-2 lg:text-justify">
                         <p>
-                            <span className="font-semibold">Yu-Chia Chen</span>, Sin-Ye Jhong, and Chih-Hsien Hsia,
-                            &quot;
+                            <span className="font-semibold">Yu-Chia Chen</span>, Sin-Ye Jhong, and Chih-Hsien Hsia.
+                            2023.&ensp;
                             <Link href="https://doi.org/10.1145/3554923" passHref>
                                 <a
                                     className="text-lightBlue hover:rounded-sm hover:bg-lightBlue hover:text-white hover:no-underline dark:text-lightYellow dark:hover:bg-lightYellow dark:hover:text-black"
                                     target="_blank"
                                 >
-                                    Roadside Unit-Based Unknown Object Detection in Adverse Weather Conditions for Smart
-                                    Internet of Vehicles
+                                    &quot;Roadside Unit-Based Unknown Object Detection in Adverse Weather Conditions for
+                                    Smart Internet of Vehicles&quot;
                                 </a>
                             </Link>
-                            &quot; ACM Transactions on Management Information Systems (TMIS), 2021.
+                            .&ensp;ACM Transactions on Management Information Systems (TMIS) 13, 4, Article 47 (December
+                            2022), 21 pages.
                         </p>
                         <p>
-                            <span className="font-semibold">Yu-Chia Chen</span>, Zih-Ching Chen, and Chih-Hsien Hsia,
-                            &quot;
+                            <span className="font-semibold">Yu-Chia Chen</span>, Zih-Ching Chen, and Chih-Hsien Hsia.
+                            2021.&ensp;
                             <Link href="https://doi.org/10.1109/ICCE-TW52618.2021.9603205" passHref>
                                 <a
                                     className="text-lightBlue hover:rounded-sm hover:bg-lightBlue hover:text-white hover:no-underline dark:text-lightYellow dark:hover:bg-lightYellow dark:hover:text-black"
                                     target="_blank"
                                 >
-                                    Music Mood Classification System for Streaming Platform Analysis via Deep
-                                    Learning-Based Feature Extraction
+                                    &quot;Music Mood Classification System for Streaming Platform Analysis via Deep
+                                    Learning-Based Feature Extraction&quot;
                                 </a>
                             </Link>
-                            &quot;, in Proceedings of the IEEE International Conference on Consumer Electronics - Taiwan
-                            (ICCE-TW), 2021.
+                            .&ensp;2021 IEEE International Conference on Consumer Electronics-Taiwan (ICCE-TW),
+                            (November 2021), 2 pages.
                         </p>
                     </div>
                 </div>
