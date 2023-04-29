@@ -56,7 +56,7 @@ const Navbar = ({ currentPage }) => {
                                     <a
                                         className={classNames(
                                             currentPage == "home"
-                                                ? "underline decoration-lightBlue dark:decoration-lightYellow"
+                                                ? "underline decoration-lightBlue decoration-wavy dark:decoration-lightYellow"
                                                 : "",
                                             "cursor-pointer px-3 py-2 hover:text-lightBlue dark:hover:text-lightYellow"
                                         )}
@@ -68,7 +68,7 @@ const Navbar = ({ currentPage }) => {
                                     <a
                                         className={classNames(
                                             currentPage == "about"
-                                                ? "underline decoration-lightBlue dark:decoration-lightYellow"
+                                                ? "underline decoration-lightBlue decoration-wavy dark:decoration-lightYellow"
                                                 : "",
                                             "cursor-pointer px-3 py-2 hover:text-lightBlue dark:hover:text-lightYellow"
                                         )}
@@ -80,7 +80,7 @@ const Navbar = ({ currentPage }) => {
                                     <a
                                         className={classNames(
                                             currentPage == "projects"
-                                                ? "underline decoration-lightBlue dark:decoration-lightYellow"
+                                                ? "underline decoration-lightBlue decoration-wavy dark:decoration-lightYellow"
                                                 : "",
                                             "cursor-pointer px-3 py-2 hover:text-lightBlue dark:hover:text-lightYellow"
                                         )}
@@ -92,7 +92,7 @@ const Navbar = ({ currentPage }) => {
                                     <a
                                         className={classNames(
                                             currentPage == "contact"
-                                                ? "underline decoration-lightBlue dark:decoration-lightYellow"
+                                                ? "underline decoration-lightBlue decoration-wavy dark:decoration-lightYellow"
                                                 : "",
                                             "cursor-pointer px-3 py-2 hover:text-lightBlue dark:hover:text-lightYellow"
                                         )}
