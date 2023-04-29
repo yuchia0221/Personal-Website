@@ -1,10 +1,7 @@
 import { Menu, Transition } from "@headlessui/react";
 import { useTheme } from "next-themes";
 import { Fragment, useEffect, useState } from "react";
-
-const classNames = (...classes) => {
-    return classes.filter(Boolean).join(" ");
-};
+import classNames from "../utils/classNames";
 
 const DarkModeBtn = () => {
     const { theme, setTheme } = useTheme();
