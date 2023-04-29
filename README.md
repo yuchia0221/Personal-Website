@@ -67,7 +67,6 @@ To get a local copy up and running follow these simple steps.
 ### Advanced Features
 
 -   [x] Dark Mode
--   [ ] Page Transition Animation
 -   [x] 404 Landing Page
 
 ### Acknowledge
