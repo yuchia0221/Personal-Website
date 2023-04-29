@@ -10,7 +10,6 @@ const Projects = () => {
             introduction: "A social media web app just like FaceBook",
             tags: ["Web", "Cloud"],
             github: "https://github.com/yuchia0221/RiceBook",
-            link: "https://ricebook-client.surge.sh",
         },
         {
             name: "Data Structure Visualizer",
@@ -30,7 +29,6 @@ const Projects = () => {
             introduction: "Ecommerce Website for saling shoes",
             tags: ["Web", "Cloud"],
             github: null,
-            link: "https://www.familletw.com/",
         },
     ];
     const highPerformanceProjects = [
