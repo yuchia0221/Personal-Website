@@ -1,13 +1,13 @@
 import Head from "next/head";
 import Navbar from "./Navbar";
 
-const Header = ({ title }) => {
+const Header = ({ title, currentPage }) => {
     return (
         <>
             <Head>
                 <title>{title}</title>
             </Head>
-            <Navbar />
+            <Navbar currentPage={currentPage} />
         </>
     );
 };

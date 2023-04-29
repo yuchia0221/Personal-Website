@@ -1,10 +1,10 @@
-import Hero from "../components/Hero";
 import Header from "../components/Header";
+import Hero from "../components/Hero";
 
 const HomePage = () => {
     return (
         <>
-            <Header title="Aaron Chen" />
+            <Header title="Aaron Chen" currentPage="home" />
             <Hero />
         </>
     );

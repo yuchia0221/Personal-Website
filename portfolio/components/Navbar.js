@@ -2,9 +2,10 @@ import { Transition } from "@headlessui/react";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import classNames from "../utils/classNames";
 import DarkModeBtn from "./DarkModeBtn";
 
-const Navbar = () => {
+const Navbar = ({ currentPage }) => {
     const [open, setOpen] = useState("");
     const [visibility, setVisibility] = useState(false);
     const [isClick, setIsClick] = useState(false);
@@ -52,22 +53,50 @@ const Navbar = () => {
                         <div className="hidden md:block">
                             <div className="mx-20 flex items-baseline space-x-4">
                                 <Link href="/">
-                                    <a className="cursor-pointer px-3 py-2 hover:text-lightBlue dark:hover:text-lightYellow">
+                                    <a
+                                        className={classNames(
+                                            currentPage == "home"
+                                                ? "underline decoration-lightBlue dark:decoration-lightYellow"
+                                                : "",
+                                            "cursor-pointer px-3 py-2 hover:text-lightBlue dark:hover:text-lightYellow"
+                                        )}
+                                    >
                                         Home
                                     </a>
                                 </Link>
                                 <Link href="/about">
-                                    <a className="cursor-pointer px-3 py-2 hover:text-lightBlue dark:hover:text-lightYellow">
+                                    <a
+                                        className={classNames(
+                                            currentPage == "about"
+                                                ? "underline decoration-lightBlue dark:decoration-lightYellow"
+                                                : "",
+                                            "cursor-pointer px-3 py-2 hover:text-lightBlue dark:hover:text-lightYellow"
+                                        )}
+                                    >
                                         About
                                     </a>
                                 </Link>
                                 <Link href="/projects">
-                                    <a className="cursor-pointer px-3 py-2 hover:text-lightBlue dark:hover:text-lightYellow">
+                                    <a
+                                        className={classNames(
+                                            currentPage == "projects"
+                                                ? "underline decoration-lightBlue dark:decoration-lightYellow"
+                                                : "",
+                                            "cursor-pointer px-3 py-2 hover:text-lightBlue dark:hover:text-lightYellow"
+                                        )}
+                                    >
                                         Projects
                                     </a>
                                 </Link>
                                 <Link href="/contact">
-                                    <a className="cursor-pointer px-3 py-2 hover:text-lightBlue dark:hover:text-lightYellow">
+                                    <a
+                                        className={classNames(
+                                            currentPage == "contact"
+                                                ? "underline decoration-lightBlue dark:decoration-lightYellow"
+                                                : "",
+                                            "cursor-pointer px-3 py-2 hover:text-lightBlue dark:hover:text-lightYellow"
+                                        )}
+                                    >
                                         Contact
                                     </a>
                                 </Link>

@@ -4,7 +4,7 @@ import Header from "../components/Header";
 const ContactPage = () => {
     return (
         <>
-            <Header title="Aaron Chen | Contact Me" />
+            <Header title="Aaron Chen | Contact Me" currentPage="contact" />
             <Contact />
         </>
     );
