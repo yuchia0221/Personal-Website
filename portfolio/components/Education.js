@@ -13,7 +13,7 @@ const Education = () => {
                 <div className="col-span-6 row-span-2 space-y-1 text-sm lg:text-lg">
                     <div>M.S. in Computer Science @ Rice University</div>
                     <div className="text-gray-500">Aug. 2022 - Present | Specializes in Systems and Security</div>
-                    <div>GPA: 4.0 / 4.0</div>
+                    <div>GPA: 3.96 / 4.0</div>
                     <div>2023 Spring: Cloud Computing, Mutlicore Computing, Computer Networks</div>
                     <div>2022 Fall: Web Development, Parallel Computing, Algorithms, Computer Architecture</div>
                 </div>
