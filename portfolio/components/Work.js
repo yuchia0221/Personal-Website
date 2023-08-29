@@ -8,6 +8,13 @@ const Work = () => {
             </div>
             <div className="grid grid-flow-row grid-cols-9 gap-x-10 gap-y-8">
                 <div className="relative col-span-1 col-start-2 row-span-2 h-10 w-10 justify-self-center lg:h-14 lg:w-14">
+                    <Image src="/images/paycom-logo.png" alt="Paycom Logo" layout="fill" />
+                </div>
+                <div className="col-span-6 row-span-2 space-y-1 text-sm lg:text-lg">
+                    <div>Software Development Intern @ Paycom</div>
+                    <div className="text-gray-500">May 2020 - Aug. 2021</div>
+                </div>
+                <div className="relative col-span-1 col-start-2 row-span-2 h-10 w-10 justify-self-center lg:h-14 lg:w-14">
                     <Image src="/images/microsoft-logo.png" alt="Microsoft Logo" layout="fill" />
                 </div>
                 <div className="col-span-6 row-span-2 space-y-1 text-sm lg:text-lg">
