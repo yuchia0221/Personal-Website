@@ -8,6 +8,13 @@ const Work = () => {
             </div>
             <div className="grid grid-flow-row grid-cols-9 gap-x-10 gap-y-8">
                 <div className="relative col-span-1 col-start-2 row-span-2 h-10 w-10 justify-self-center lg:h-14 lg:w-14">
+                    <Image src="/images/google-logo.png" alt="Google Logo" layout="fill" />
+                </div>
+                <div className="col-span-6 row-span-2 space-y-1 text-sm lg:text-lg">
+                    <div>Software Engineer @ Google</div>
+                    <div className="text-gray-500">Dec. 2024 - Present</div>
+                </div>
+                <div className="relative col-span-1 col-start-2 row-span-2 h-10 w-10 justify-self-center lg:h-14 lg:w-14">
                     <svg
                         viewBox="0 0 512 512"
                         id="icons"
@@ -19,7 +26,7 @@ const Work = () => {
                 </div>
                 <div className="col-span-6 row-span-2 space-y-1 text-sm lg:text-lg">
                     <div>Backend Software Engineer @ TikTok</div>
-                    <div className="text-gray-500">Mar. 2024 - Present</div>
+                    <div className="text-gray-500">Mar. 2024 - Dec. 2024</div>
                 </div>
                 <div className="relative col-span-1 col-start-2 row-span-2 h-10 w-10 justify-self-center lg:h-14 lg:w-14">
                     <Image src="/images/paycom-logo.png" alt="Paycom Logo" layout="fill" />
@@ -34,13 +41,6 @@ const Work = () => {
                 <div className="col-span-6 row-span-2 space-y-1 text-sm lg:text-lg">
                     <div>Software Engineer Intern @ Microsoft</div>
                     <div className="text-gray-500">July 2020 - July 2021</div>
-                </div>
-                <div className="relative col-span-1 col-start-2 row-span-2 h-7 w-16 self-center justify-self-center lg:h-12 lg:w-32">
-                    <Image src="/images/eland-logo.png" alt="eland Logo" layout="fill" />
-                </div>
-                <div className="col-span-7 row-span-2 space-y-1 text-sm lg:text-lg">
-                    <div>Data Scientist Intern @ eLand</div>
-                    <div className="text-gray-500">Mar. 2020 - June 2020</div>
                 </div>
             </div>
         </div>
